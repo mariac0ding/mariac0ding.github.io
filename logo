@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="favicon.png">
 
 </head>
-<body>
-	<img src="/img/horizontal-logo-sm.jpg" title="MariaCoding's Logo" alt="small resolution logo">
+<body style="margin: 0px;">
+	<img src="img/horizontal-logo-sm.jpg" title="MariaCoding's Logo" alt="small resolution logo" width="100%">
 </body>
 </html>
