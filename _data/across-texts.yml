@@ -1,0 +1,31 @@
+# Across pages text in ENGLISH
+# -----------------------------------------------------------------------------------------
+en:
+-
+  page-note: ⤹ Page title
+  pg-text-note: ⤹ Here will be a lead text
+  banner1-text: My website is under construction. Will be here soon with my blog and the detailed description of my services.
+  banner2-text: A new awesome Website is coming soon!
+  social-network: Follow me
+  cookies:
+    text: This site uses cookies to enhance your user experience, to personalise ads and to analyse traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.
+    botton-yes: Got it
+    botton-no: Learn more
+    lear-more: https://www.google.com/policies/technologies/cookies/
+
+
+# Across pages text in PORTUGUESE
+# -----------------------------------------------------------------------------------------
+pt:
+-
+  page-note: ⤹ Título da página
+  pg-text-note: ⤹ Escrever aqui um texto introdutório
+  banner2-text: Um novo e fantástico Website está chegando!
+  banner1-text: Este site está em construção. Brevemente estará aqui o meu blog e a descrição detalhada dos meus serviços.
+  banner2-text: Um novo e fantástico Website está chegando!
+  social-network: Siga-me
+  cookies:
+    text: Este site usa cookies para melhorar a sua experiencia como utilizador, para personalizar anúncios publicitários e para analisar o tráfico. Informações sobre o uso deste site será partilhado com a Google. Ao entrar neste site, concorda com a utilização de cookies.
+    botton-yes: OK, entendi
+    botton-no: + Informação
+    lear-more: https://www.google.com/policies/technologies/cookies/

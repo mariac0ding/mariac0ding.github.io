@@ -1,0 +1,13 @@
+# _config-local.yml - Local dev environment configs and overrides
+
+# Site settings
+url: "http://127.0.0.1:8000" # the base hostname & protocol for your in-development site
+baseurl: "/in-development"
+
+# Build settings
+show_drafts: true
+future: true
+
+# SASS settings
+sass:
+  style: full # Don't compress SASS output

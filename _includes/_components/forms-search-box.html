@@ -1,0 +1,62 @@
+      <!-- search-box form -->
+      <form
+            id="searchForm"
+            class="form-inline form-fluid search-box"
+            action="http://www.google.com/search"
+            role="search"
+            method="get"
+            target="_blank">
+
+        <div class="form-group">
+          <label for="searchBoxText" class="sr-only">{{ fields.search-box }}'s' input</label>
+          <input
+                 id="searchBoxText"
+                 class="form-control btn-primary-outline"
+                 type="text"
+                 role="searchbox"
+                 name="q"
+                 value=""
+                 size="45%"
+                 maxlength="255"
+                 placeholder="{{ fields.search-box }}"
+                 aria-labelledby="searchBoxText">
+        </div>
+
+        <div class="form-group">
+          <label for="searchBoxButton" class="sr-only">magnify glass icon</label>
+          <input
+                 id="searchBoxButton"
+                 type="submit"
+                 class="btn btn-primary fa-input"
+                 value="&#x1F50D;"
+                 style="font-family: FontAwesome;">
+        </div>
+
+        <div class="form-group" role="radiogroup" aria-label="Search Option">
+          <div class="form-check">
+            <input
+                   id="mySiteSearch"
+                   classe="form-check-input"
+                   type="radio"
+                   role="radio"
+                   name="sitesearch"
+                   value="mariacoding.com"
+                   checked
+                   aria-checked>
+            <label for="mySiteSearch" class="form-check-label">{{ fields.search-where.option1 }}</label>
+
+          </div>
+          <div class="form-check disabled">
+            <input id="googleSearch"
+                   classe="form-check-input"
+                   type="radio"
+                   role="radio"
+                   name="sitesearch"
+                   value="" >
+            <label for="googleSearch" class="form-check-label">{{ fields.search-where.option2 }}</label>
+          </div>
+        </div>
+      </form>
+
+      <!--  name="q" at searchBoxText, and  name="sitesearch" at googleSearch and mySiteSearch are the only that can't be changed, because they are part of the Google Search URL
+      The lables with class="sr-only" are too Accebility propouses-->

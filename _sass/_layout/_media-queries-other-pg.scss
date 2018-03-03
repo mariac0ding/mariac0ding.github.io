@@ -1,0 +1,533 @@
+/*********************************/
+/*   Media Queries - OTHER PAGES   */
+/*********************************/
+
+/*************************************************************************************************************/
+/*  Small devices (landscape phones, 34em and up >=544px) ***************************************************/
+@media (min-width: $media-breakpoint-sm) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-sm;
+    left: $left-right-margin-sm;
+    right: $left-right-margin-sm;
+    bottom: $top-bottom-margin-sm;
+    height: $other-pg-header-height-sm;
+  }
+  main {
+    padding-top: $other-pg-main-top-sm;
+    margin-left: $left-right-margin-sm;
+    margin-right: $left-right-margin-sm;
+  }
+
+  /* Page Images */
+  .pages-img-container {
+    top: $pages-img-container-top-sm;
+    left: $pages-img-container-left-sm;
+    .about-pg-img {
+      width: $pg-about-img-width-sm;
+      height: $pg-about-img-height-sm;
+      .about-pg-img::after {
+        top: $pg-about-img-height-sm - 25px;
+      }
+    }
+    .portfolio-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .portfolio-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+    .blog-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .blog-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+    .contact-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .contact-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+    .sitmap-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .sitmap-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+    .erro404-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .erro404-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+    .underconstruction-pg-img {
+      width: $pages-img-width-sm;
+      height: $pages-img-height-sm;
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+    }
+  }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-sm;
+      right: $jumbotron-right-sm;
+      width: $post-it-bg-width-sm; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-sm * 2.2;}
+
+      h2 {font-size: $font-size-sm * 2.5;}
+    }
+  }
+  /* Page under Construction */
+ .underconstruction-text {
+   font-size: 3.5em;
+   text-shadow: 4px 4px $gray-light;
+ }
+  /****** BACKGROUND PATTERNS ******/
+    /* Jumbotron Post-it*/
+    .post-it-bg {
+      width: $post-it-bg-width-sm;
+      height: $post-it-bg-height-sm;
+    }
+
+}
+/* End of Media Queries - Small devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Medium devices (tablets, 48em and up >=768px) ***********************************************************/
+@media (min-width: $media-breakpoint-md) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-md;
+    left: $left-right-margin-md;
+    right: $left-right-margin-md;
+    bottom: $top-bottom-margin-md;
+    height: $other-pg-header-height-md;
+  }
+
+  main {
+    padding-top: $other-pg-main-top-md;
+    margin-left: $left-right-margin-md;
+    margin-right: $left-right-margin-md;
+  }
+  /* Page Images */
+  .pages-img-container {
+    top: $pages-img-container-top-md;
+    left: $pages-img-container-left-md;
+
+    .about-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4656/26556825898_f77a893412_n.jpg");
+      width: $pg-about-img-width-md;
+      height: $pg-about-img-height-md;
+      .about-pg-img::after {
+        top: $pg-about-img-height-md - 25px;
+      }
+    }
+
+    .portfolio-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4769/39532063475_9b1780dbd6_n.jpg");
+      width: $pages-img-width-md;
+      height: $pages-img-height-md;
+      .portfolio-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+    }
+
+    .blog-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4632/26556826028_73f5a4ea81_o.jpg");
+      width: $pages-img-width-md;
+      height: $pages-img-height-md;
+      .blog-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+    }
+
+    .contact-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4663/38617147600_e116075cf4_n.jpg");
+      width: $pages-img-width-md;
+      height: $pages-img-height-md;
+      .contact-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+    }
+
+      .sitmap-pg-img {
+        background-image: url("https://farm5.staticflickr.com/4659/38731919660_2ab0499810_n.jpg");
+        width: $pages-img-width-md;
+        height: $pages-img-height-md;
+        .sitmap-pg-img::after {
+          top: $pages-img-height-md - 25px;
+        }
+      }
+
+      .erro404-pg-img {
+        background-image: url("https://farm5.staticflickr.com/4610/39831696884_3cee4528d0_n.jpg");
+        width: $pages-img-width-md;
+        height: $pages-img-height-md;
+        .erro404-pg-img::after {
+          top: $pages-img-height-md - 25px;
+        }
+      }
+      .underconstruction-pg-img {
+        background-image: url("https://farm5.staticflickr.com/4650/40539413082_e21634b136_n.jpg");
+        width: $pages-img-width-md;
+        height: $pages-img-height-md;
+        .underconstruction-pg-img::after {
+          top: $pages-img-height-md - 25px;
+        }
+      }
+  }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-md;
+      right: $jumbotron-right-md;
+      width: $post-it-bg-width-md; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-md * 2.2;}
+
+      h2 {font-size: $font-size-md * 2.5;}
+    }
+  }
+    /* Page under Construction */
+   .underconstruction-text {
+     font-size: 4.5em;
+     text-shadow: 5px 5px $gray-light;
+   }
+  /****** BACKGROUND PATTERNS ******/
+    /* Jumbotron Post-it*/
+    .post-it-bg {
+      width: $post-it-bg-width-md;
+      height: $post-it-bg-height-md;
+    }
+}
+/*End of Media Queries - Medium devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ***********************************************************/
+@media (min-width: $media-breakpoint-lg) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-lg;
+    left: $left-right-margin-lg;
+    right: $left-right-margin-lg;
+    bottom: $top-bottom-margin-lg;
+    height: $other-pg-header-height-lg;
+  }
+
+  main {
+    padding-top: $other-pg-main-top-lg;
+    margin-left: $left-right-margin-lg;
+    margin-right: $left-right-margin-lg;
+  }
+  /* Page Images */
+  .pages-img-container {
+    top: $pages-img-container-top-lg;
+    left: $pages-img-container-left-lg;
+
+    .about-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4656/26556825898_f77a893412.jpg");
+      width: $pg-about-img-width-lg;
+      height: $pg-about-img-height-lg;
+      .about-pg-img::after {
+        top: $pg-about-img-height-lg - 25px;
+      }
+    }
+
+    .portfolio-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4769/39532063475_3cdaa109b2_o.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .portfolio-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+
+    .blog-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4632/26556826028_73f5a4ea81_o.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .blog-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+
+    .contact-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4663/38617147600_32e4450693_o.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .contact-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+    .sitmap-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4659/38731919660_2ab0499810.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .sitmap-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+
+    .erro404-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4610/39831696884_3cee4528d0.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .erro404-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+    .underconstruction-pg-img {
+      background-image: url("https://farm5.staticflickr.com/4650/40539413082_e21634b136.jpg");
+      width: $pages-img-width-lg;
+      height: $pages-img-height-lg;
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+    }
+  }
+  /* Page under Construction */
+ .underconstruction-text {
+   font-size: 5.5em;
+   text-shadow: 6px 6px $gray-light;
+ }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-lg;
+      left: $jumbotron-left-lg;
+      width: $post-it-bg-width-lg; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-lg * 2.2;}
+
+      h2 {font-size: $font-size-lg * 2.5;}
+    }
+  }
+
+    /****** BACKGROUND PATTERNS ******/
+      /* Jumbotron Post-it*/
+      .post-it-bg {
+        width: $post-it-bg-width-lg;
+        height: $post-it-bg-height-lg;
+      }
+}
+/*End of Media Queries - Large devices screens
+---------------------------------------------------------------- */
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - NON RETINA Screens *************************/
+@media (min-width: $media-breakpoint-xl) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-xl;
+    left: $left-right-margin-xl;
+    right: $left-right-margin-xl;
+    bottom: $top-bottom-margin-xl;
+    height: $other-pg-header-height-xl;
+  }
+
+  main {
+    padding-top: $other-pg-main-top-xl;
+    margin-left: $left-right-margin-xl;
+    margin-right: $left-right-margin-xl;
+  }
+
+  /* Page Images */
+  .pages-img-container {
+    top: $pages-img-container-top-xl;
+    left: $pages-img-container-left-xl;
+    .about-pg-img {
+      width: $pg-about-img-width-xl;
+      height: $pg-about-img-height-xl;
+      .about-pg-img::after {
+        top: $pg-about-img-height-xl - 25px;
+      }
+    }
+    .portfolio-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .portfolio-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+    .blog-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .blog-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+    .contact-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .contact-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+    .sitmap-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .sitmap-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+    .erro404-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .erro404-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+    .underconstruction-pg-img {
+      width: $pages-img-width-xl;
+      height: $pages-img-height-xl;
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+    }
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-xl;
+      left: $jumbotron-left-xl;
+      width: $post-it-bg-width-xl; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-xl * 2.2;}
+
+      h2 {font-size: $font-size-xl * 2.5;}
+    }
+  }
+    /* Page under Construction */
+   .underconstruction-text {
+     font-size: 6em;
+     text-shadow: 6px 6px $gray-light;
+   }
+    /****** BACKGROUND PATTERNS ******/
+      /* Jumbotron Post-it*/
+      .post-it-bg {
+        width: $post-it-bg-width-xl;
+        height: $post-it-bg-height-xl;
+      }
+
+}
+
+/*End of Media Queries - Extra large devices - RETINA Screens
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -RETINA Screens *************************/
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
+
+
+}
+
+/*End of Media Queries - Extra large devices - RETINA Screens
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (XXL Larg desktops, 93.75 and up ≥1500px) -Non-Retina Screens ***********************/
+@media (min-width: $media-breakpoint-xxl) {
+  /****** HEADER ******/
+  .my-header {
+    height: $other-pg-header-height-xxl;
+  }
+
+  main {
+    padding-top: $other-pg-main-top-xxl;
+  }
+
+  /* Page Images */
+  .pages-img-container {
+    top: $pages-img-container-top-xxl;
+    left: $pages-img-container-left-xxl;
+    .about-pg-img {
+      width: $pg-about-img-width-xxl;
+      height: $pg-about-img-height-xxl;
+      .about-pg-img::after {
+        top: $pg-about-img-height-xxl - 25px;
+      }
+    }
+    .portfolio-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .portfolio-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+    .blog-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .blog-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+    .contact-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .contact-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+    .sitmap-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .sitmap-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+    .erro404-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .erro404-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+    .underconstruction-pg-img {
+      width: $pages-img-width-xxl;
+      height: $pages-img-height-xxl;
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+    }
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-xxl;
+      left: $jumbotron-left-xxl;
+      width: $post-it-bg-width-xxl; /*equal to post-it*/
+  }
+  /* Page under Construction */
+   .underconstruction-text {
+     font-size: 7em;
+     text-shadow: 7px 7px $gray-light;
+   }
+  /****** BACKGROUND PATTERNS ******/
+    /* Jumbotron Post-it*/
+    .post-it-bg {
+      width: $post-it-bg-width-xxl;
+      height: $post-it-bg-height-xxl;
+    }
+}
+/*End of Media Queries - Extra large devices -Retina Screens
+---------------------------------------------------------------------------------------------------------- */

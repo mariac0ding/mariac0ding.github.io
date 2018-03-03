@@ -1,0 +1,440 @@
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+	padding-top: 3%;
+	padding-bottom: 0.3%;
+	font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+	color: $primary-color-dark;
+	font-size: $font-size-base * 2.6;
+}
+
+h1.inverse-color {
+	color: $white;
+}
+
+h2 {
+	font-size: $font-size-base * 2.15;
+	color: $primary-color-dark;
+}
+
+h2.inverse-color {
+	color: $gray-lighter;
+	}
+
+h3 {
+	font-size: $font-size-base * 1.9;
+	color: $accent-color;
+}
+
+h3.inverse-color {
+	color: $accent-color-lighter;
+	}
+
+h4 {
+	font-size: $font-size-base * 1.7;
+	color: $gray-dark;
+}
+
+h4.inverse-color {
+		color: $primary-color-lighter;
+}
+
+h5 {
+	font-size: $font-size-base * 1.6;
+	color: $gray-dark;
+}
+
+h5.inverse-color {
+	color: $gray-light;
+}
+
+h6 {
+	font-size: $font-size-base * 1.5;
+  color: $dark-text-color;
+}
+
+h6.inverse-color {
+	color: $gray-light;
+}
+
+/* TEXT */
+
+p, span {
+  font-family: $font-stack;
+	font-size: $font-size-base * 1.3;
+	font-weight: 200;
+	line-height: 1.6;
+}
+
+p.inverse-color, span.inverse-color {
+	color: $inverse-text-color;
+}
+
+p.dark-color, span.dark-color {
+	color: $dark-text-color;
+}
+
+a, a:link,a:visited  {
+  font-size: inherit;
+	color: $accent-color;
+}
+
+a:hover, a:focus,  {
+	font-size: inherit;
+	color: $accent-color-light;
+}
+
+a:active,  {
+	font-size: inherit;
+	color: $accent-color;
+}
+
+a:disabled {
+	font-size: inherit;
+	color: $gray;
+}
+
+a.inverse-color, a.inverse-color:link, a.inverse-color:visited  {
+	font-size: inherit;
+	color: $secondary-accent-color !important;
+}
+
+/* Display */
+.display-1, .display-2, .display-3, .display-4, {
+	font-family: $font-display;
+  color: $accent-color;
+}
+
+/* Lead body copy */
+.lead {
+	font-size: $font-size-base * 1.7;
+	font-weight: 400;
+}
+
+/* Emphasis */
+sub {
+	vertical-align: sub;
+	font-size: $font-size-base * 0.6;
+}
+
+sup {
+	vertical-align: super;
+	font-size: $font-size-base * 0.6;
+}
+
+small, .small {
+	font-size: $font-size-base;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-size: $font-size-base;
+	font-weight: 200;
+	font-style: italic;
+}
+
+article {
+
+	header {
+		p, span {
+			color: $accent-color;
+			font-size: $font-size-base * 0.9;
+			font-style: oblique;
+		}
+	}
+	footer {
+		p, span {
+			color: $accent-color;
+			font-size: $font-size-base * 0.9;
+			font-style: oblique;
+		}
+	}
+}
+
+/* Abbreviations */
+abbr {
+	text-decoration-style: dotted;
+	-webkit-text-decoration-style: dotted;
+	text-decoration-line: none; 	/* do not use -moz-none of recomendation: https://developer.mozilla.org/en/docs/Web/CSS/text-decoration-style */
+}
+
+.initialism {
+	font-size: $font-size-base * 0.8;
+	font-weight: 100;
+}
+
+/* Addresses */
+address {
+	font-family: $font-address;
+	font-size: $font-size-base * 1.2;
+	font-weight: 300;
+}
+
+/* Blockquotes */
+blockquote, .blockquote {
+	font-family: $font-blockquotes;
+	font-size: $font-size-base * 1.3;
+	p{
+		line-height: $font-size-base * 1.3;
+	}
+  footer, .blockquote-footer {
+  	font-size: $font-size-base;
+  	color:$gray-dark;
+    font-family: $font-clean;
+  }
+
+  blockquote::before {
+    content: open-quote;
+  }
+
+  blockquote::after {
+    content: close-quote;
+  }
+}
+
+blockquote::first-letter, .blockquote::first-letter {
+  font-family: $font-handletter;
+  font-weight: bold;
+	font-size: 200%;
+	vertical-align: baseline;
+	display: inline;
+}
+
+blockquote.dark-color {
+	color: $dark-text-color;
+}
+
+cite {
+	font-size: $font-size-base * 1.15;
+	font-weight: 300;
+	font-family: $font-clean;
+}
+
+
+/* Block of Code */
+code, pre, .blockcode {
+	font-family: $font-blockcode;
+	font-size: $font-size-base * 1.2;
+  font-weight: normal;
+	line-height: 1.4;
+	color: $white;
+	background: $gray-darker;
+
+	p, span {
+		color: $white;
+    font-family: $font-blockcode;
+    font-size: $font-size-base * 1.2;
+  	line-height: 1.4;
+	}
+
+  p.yellow, span.yellow {
+    color: $yellow;
+  }
+
+  p.red, span.red {
+    color: $red;
+  }
+
+  p.blue, span.blue {
+    color: $blue;
+  }
+
+  p.green, span.green {
+    color: $green;
+  }
+}
+
+/* Lists */
+li {
+	display: list-item;
+  font-family: $font-stack;
+	font-size: $font-size-base * 1.3;
+  font-weight: 300;
+  line-height: 1.6;
+
+	margin-bottom: 0.3em;
+	text-indent: 0.6em;
+}
+
+/* unordered list */
+ul {
+	li  {
+		font-size: $font-size-base * 1.3;
+		line-height: 1.6;
+	}
+
+	ul {
+		li {
+			font-size: $font-size-base * 1.1;
+			line-height: 100%;
+		}
+
+		li:first-child {
+			padding-top: 1%;
+		}
+	}
+}
+
+/* ordered list */
+ol {
+	counter-reset: section;
+	list-style-type: none;
+	margin: 0;
+
+	li {
+		font-size: $font-size-base * 1.3;
+		display: table;
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+		line-height: 1.6;
+
+		ol {
+			li {
+				font-size: $font-size-base * 1.1;
+				margin-top: 0.3em;
+				margin-bottom: 0.3em;
+			}
+		}
+	}
+
+	li::before {
+		counter-increment: section;
+		content: counters(section,".") ".";
+		padding-right: 0.6em;
+	}
+}
+
+/* unstyled list */
+.unstyled {
+	list-style-type: none;
+}
+
+/* inline list */
+ul.inline > li {
+	display: inline-block;
+}
+
+ol.inline > li {
+	display: inline-block;
+}
+
+/* description list */
+dl {
+	font-size: $font-size-base * 1.3;
+	line-height: 1.6;
+
+  dt {
+  	font-weight: bold;
+    font-size: $font-size-base * 1.1;
+  }
+
+  dd {
+  	font-size: $font-size-base * 1.1;
+  	text-align: justify;
+  	text-justify: inter-word;
+  }
+}
+
+.dl-horizontal {
+	margin-bottom: 0.3em;
+}
+
+/* Horizontal separation */
+hr {
+	box-shadow: inset 0 6px 6px -6px $black-rgba;
+  border: 0;
+	width: 100%;
+	min-height: 5px;
+	z-index: 999;
+}
+
+hr.inverse-color{
+	border-top: 1px solid $white-rgba; // melhorar estilo
+	box-shadow: 0 2px 1px -1px $accent-color-lighter;
+	width: 100%;
+	min-height: 1px;
+	z-index: 999;
+}
+
+hr.drop-shadow {
+    height: 1px;
+    //border-bottom: none;
+    box-shadow: inset 0 9px 9px -3px $accent-color-lighter-rgba;
+    @include border-radius(3px);
+}
+
+/* Letter Fonts */
+.stack-letter {
+  font-family: $font-stack;
+}
+
+.headings-letter {
+  font-family: $font-heading;
+}
+
+.display-letter {
+  font-family: $font-display;
+}
+
+.address-letter {
+  font-family: $font-address
+}
+
+.blockcode-letter {
+  font-family: $font-blockcode;
+}
+
+.blockquotes-letter {
+  font-family: $font-blockquotes;
+  font-size: 1.7em;
+  letter-spacing: 0.1em;
+}
+
+.clean-letter {
+  font-family: $font-clean;
+}
+
+.handletter {
+  font-family: $font-handletter;
+  font-size: $font-size-base * 1.8;
+  letter-spacing: 0.1em;
+}
+
+.special-letter {
+  font-family: $font-special;
+}
+
+.handwrite-title {
+  font-family: $font-heading;
+  font-weight: 600;
+}
+
+.handwrite-text {
+  font-family: $font-handletter;
+  font-size: $font-size-base * 1.5;
+	line-height: 1;
+}
+/* Paragraph lines */
+.single-line-paragraph {
+  line-height: 1;
+}
+
+/* Header */
+.pg-notes {
+	padding-top: 1em;
+  color: $gray-dark;
+	line-height: 1;
+}
+.summary-text {
+	line-height: 0.9;
+	text-indent: 0.7em;
+	color: $accent-color;
+	text-indent: 0;
+}

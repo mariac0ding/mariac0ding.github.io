@@ -1,0 +1,85 @@
+
+    <!-- Language Navigation Bar -->
+    {% assign navbar-texts = site.data.nav-navbar[page.lang] | first %}
+    <div class="language-bar d-flex flex-row flex-wrap flex-sm-nowrap order-0">
+      <span class="language-text handwrite-text">{{ navbar-texts.text-langbar }}</span>
+        <ul class="lang-name list-inline {{ site.language-bar-class-bg }}">
+          <li {%  if page.lang == "en" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item list-inline-item" {% endif %}>
+            <a href="{{ site.baseurl }}/" class="lang-name-link">
+              {% if page.lang == "en" %} {{ site.language.first | upcase }}<span class="sr-only">({{ site.language.first }} is current)</span>  {% else %}
+              {{ site.language.first | upcase }} {% endif %}
+            </a>
+          </li>
+          <li {% if page.lang == "pt" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item list-inline-item" {% endif %}>
+            <a href="{{ site.baseurl }}/{{ site.language.second }}"  class="lang-name-link">
+              {% if page.lang == "pt" %} {{ site.language.second | upcase }}<span class="sr-only">({{ site.language.second }} is current)</span>  {% else %}
+              {{ site.language.second | upcase }}  {% endif %}
+            </a>
+          </li>
+        </ul>
+    </div> <!-- End of Language Navigation Bar -->
+
+    <!-- Navtabs -->
+    <div class="my-navbar order-0 order-sm-1">
+      <h1 class="my-website handwrite-text">
+        {{ navbar-texts.heading-navbar }}</h1>
+      <span class="navbar-text handwrite-text">
+        {{ navbar-texts.text-navbar }}
+      </span>
+      <nav class="navbar navbar-light">
+        <ul class="navbar-nav flex-column handwrite-title {{ site.navbar-class-bg }}">
+        {% assign navbar-texts = site.data.nav-navbar[page.lang] | first %}
+         <!-- Home Page Navtab -->
+          <li {% if page.permalink == navbar-texts.landing.path %} class="nav-item active" {% else %} class="nav-item" {% endif %} >
+            <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.landing.path }}">
+              {% if page.permalink == navbar-texts.landing.path %} {{ navbar-texts.landing.name }}<span class="sr-only">(current page)</span>  {% else %}
+              {{ navbar-texts.landing.name }} {% endif %}
+            </a>
+          </li>
+          <!-- About Page Navtab -->
+          <li {% if page.permalink == navbar-texts.page2.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page2.path }}">
+              {% if page.permalink == navbar-texts.page2.path %} {{ navbar-texts.page2.name }}<span class="sr-only">(current page)</span>  {% else %}
+              {{ navbar-texts.page2.name }} {% endif %}
+            </a>
+          </li>
+          <!-- Portfolio Page Navtab -->
+          <li {% if page.permalink == navbar-texts.page3.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page3.path }}">
+              {% if page.permalink == navbar-texts.page3.path %} {{ navbar-texts.page3.name }}<span class="sr-only">(current page)</span>  {% else %}
+              {{ navbar-texts.page3.name }} {% endif %}
+            </a>
+          </li>
+          <!-- Blog Page Navtab -->
+          <li {% if page.permalink == navbar-texts.page4.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page4.path }}">
+              {% if page.permalink == navbar-texts.page4.path %} {{ navbar-texts.page4.name }}<span class="sr-only">(current page)</span>  {% else %}
+              {{ navbar-texts.page4.name }} {% endif %}
+            </a>
+          </li>
+          <!-- Contact Page Navtab -->
+          <li {% if page.permalink == navbar-texts.page5.path %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link" href="{{ site.baseurl }}{{ navbar-texts.page5.path }}">
+              {% if page.permalink == navbar-texts.page5.path %} {{ navbar-texts.page5.name }}<span class="sr-only">(current page)</span>  {% else %}
+              {{ navbar-texts.page5.name }} {% endif %}
+            </a>
+          </li>
+        </ul> <!-- End of Navtabs -->
+      </nav>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-media-container d-flex flex-column order-2 order-md-1">
+      <span class="social-name-text handwrite-text">{{ navbar-texts.text-socialmedia }}</span>
+      <div class="social-media">
+      {% include _components/social-media-icons.html %}
+      </div>
+    </div> <!-- End of Social Media Icons -->
+
+    <!-- Brand -->
+    <div class="my-brand d-flex flex-column order-3">
+      <span class="handwrite-text">{{ navbar-texts.text-brand }}</span>
+      <a class="my-logo" href="#" title="logo of Maria Coding">
+        <span class="sr-only">(logo)</span>
+      </a>
+    </div>

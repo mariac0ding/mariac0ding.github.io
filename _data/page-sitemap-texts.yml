@@ -1,0 +1,34 @@
+# Sitemap in English:
+# ----------------------
+en:
+-
+  pagestext: "Website pages"
+  poststext: "All posts"
+  portfoliotext: "Portfolio posts"
+  blogtext: "Blog Posts"
+  inftext: "Site Map Page Information:"
+  modification: "Last modification:"
+  frequency:
+    text: "Frequency:"
+    value: "Monthly"
+  priority:
+    text: "Priority:"
+    value: 0.8
+
+
+# Sitemap in Portuguese:
+# ----------------------
+pt:
+-
+  pagestext: "Páginas do Website"
+  poststext: "Todos os posts"
+  portfoliotext: "Posts do Portfólio"
+  blogtext: "Posts do Blog"
+  inftext: "Informação do Mapa do Site:"
+  modification: "Última modificação:"
+  frequency:
+    text: "Frequencia:"
+    value: "Mensal"
+  priority:
+    text: "Prioritade:"
+    value: 0.8

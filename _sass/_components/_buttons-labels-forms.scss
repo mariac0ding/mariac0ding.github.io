@@ -1,0 +1,147 @@
+/* Varibles to use in Buttons, Icons, Labels, Forms and Pills -------------------------------------- */
+$contact-form-height-xs: 450px;
+$contact-form-height-sm: 550px;
+$contact-form-height-md: 500px;
+$contact-form-height-lg: 400px;
+$contact-form-height-xl: 400px;
+$contact-form-height-xxl: 400px;
+
+/* Buttons, Icons, Labels, Forms and Pills -------------------------------------- */
+.btn, a.btn {
+  margin: 0;
+}
+.btn-primary,
+a.btn-primary,
+a.btn-primary:link {
+  font-family: $font-heading;
+  font-size: 0.9em;
+  font-weight: 400;
+  background-color: $gray-dark;
+  border: solid 1px $black-rgba;
+  color: $off-white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+a.btn-primary:hover,
+a.btn-primary:focus {
+  background-color: $accent-color;
+  border: solid 1px $accent-color-dark;
+}
+
+.btn-primary-outline,
+a.btn-primary-outline,
+a.btn-primary-outline:link  {
+  font-family: $font-handletter;
+  font-size: 1.3;
+  border: solid 1px $black-rgba;
+  color: $gray-light;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+a.btn-primary-outline:hover,
+a.btn-primary-outline:focus {
+  background-color: $accent-color-lighter-rgba;
+  border: solid 1px $accent-color-light;
+}
+.form-check .form-check-label {
+  font-family: $font-handletter;
+  font-size: 1.3;
+  padding-right: 1em;
+}
+
+.form-check-label {
+  text-indent: 0.6em;
+}
+
+/* Checked state */
+.form-check-input{
+	background:$accent-color-light;
+  border: solid 2px $accent-color-light;
+}
+
+/* Back to Top & and Go down to the bottom's buttons */
+#scrollBtnContainer {
+  position: fixed;
+  bottom: $top-bottom-margin-xs;
+  right: $left-right-margin-xs;
+  z-index: 10;
+
+  li {
+    width: 2em;
+    height: 2em;
+    line-height: 2;
+    text-align: center;
+    text-indent: 0;
+    vertical-align:  middle;
+    cursor: pointer;
+    margin-top: 0.3em;
+  }
+
+  a {
+    display: block;
+    position: relative;
+    background-color: $primary-color-rgba;
+    border: solid 1px $black-rgba;
+    color: $off-white;
+    @include border-radius(10px);
+    @include transition-ease-in-out(.2s,.3s)
+  }
+
+  a:before {
+    @include transition-ease-in-out(.2s,.3s)
+  }
+
+  a:hover, a:focus {
+    background-color: $accent-color-rgba;
+    border: solid 1px $accent-color-dark;
+  }
+
+  a.disable {
+    visibility: hidden;
+    cursor: default;
+  }
+
+  a.disable:hover {
+    opacity: .3;
+  }
+
+  .fas {
+    font-size: 1em;
+    color: $off-white;
+    text-align: center;
+    vertical-align:  middle;
+  }
+
+  #backToTop .fas {
+    border-top: solid 3px $off-white;
+    @include border-radius(2px);
+  }
+
+  #backToBottom .fas {
+    border-bottom: solid 3px $off-white;
+    @include border-radius(2px);
+  }
+}
+
+/* Contact Form */
+.contact-form {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100% ;
+  max-width: 100%;
+  height: $contact-form-height-xs + 70px;
+  border: solid 1px $black-rgba;
+  @include border-radius(10px);
+  box-shadow: 0 10px 6px -6px $black-rgba;
+
+  .typeform-widget {
+    background-color: $off-white;
+    border: solid 1px $black-rgba;
+    @include border-radius(10px);
+    width: 100%;
+    height: $contact-form-height-xs;
+    font-family: $font-stack;
+  }
+}

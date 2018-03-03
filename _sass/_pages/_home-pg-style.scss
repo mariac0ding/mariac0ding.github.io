@@ -1,0 +1,202 @@
+/* HOME PAGE STYLE --------------------------------------- */
+/****** GENERAL ******/
+ .my-header {
+   margin: 0 auto;
+   position: absolute;
+   top: $top-bottom-margin-xs;
+   left: $left-right-margin-xs;
+   right: $left-right-margin-xs;
+   bottom: $top-bottom-margin-xs;
+   height: $home-pg-header-height-xs;
+   background-color: $white-rgba;
+   border: solid 1px $black-rgba;
+   @include border-radius(10px);
+   box-shadow: 2px 5px 5px $black-rgba;
+   //@include box-shadow(2px, 5px, 5px, 0, $black-rgba);
+   z-index: 1000;
+ }
+
+ .my-header::before {
+   content: "⤹ This will be the header";
+   font-family: $font-handletter;
+   color: $gray-dark;
+   position: absolute;
+   bottom: $top-bottom-margin-xs;
+   right: $left-right-margin-xs;
+ }
+
+ main {
+   margin: 0 auto;
+   position: relative;
+   padding-top: $home-pg-main-top-xs;
+   margin-left: $left-right-margin-xs;
+   margin-right: $left-right-margin-xs;
+   z-index: 999
+ }
+
+/****** MAIN ******/
+.my-skills {
+  padding-top: 35px;
+  padding-bottom: 0;
+
+  span {
+    color: $gray-dark;
+  }
+
+  .summary-text {
+    line-height: 0.9;
+    text-indent: 0.7em;
+    color: $accent-color;
+  }
+
+  h3 {
+    color: $base-text-color;
+  }
+
+  .skills-topic {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: $gray-dark;
+    font-weight: bold;
+    text-indent: 0.7em;
+    background-color: transparent;
+    width: 100%;
+
+    .skills {
+      font-size: 0.8em;
+      font-weight: 200;
+      width: 100%;
+      @include border-radius(15px);
+      box-shadow: 0 10px 6px -6px $black-rgba;
+
+      .skills-item {
+        width: 100%;
+        font-size: 0.8em;
+        color: $base-text-color;
+        padding-bottom: 5px;
+      }
+    }
+    .list-group-item {
+      background-color: $off-white;
+    }
+  }
+}
+
+/* Newsletter form */
+.newsletter-container {
+  margin: 0 auto;
+  width: 100%;
+
+  span {
+    color: $gray-dark;
+  }
+  p {
+    font-family: $font-heading;
+  	padding-top: 1%;
+  	padding-bottom: 0.3%;
+  	font-weight: 500;
+    line-height: 1.2;
+  }
+    .newsletter-form {
+      padding-top: 10px;
+      margin-bottom: 10px;
+      min-width: 100%;
+      min-height: 100%;
+      border: solid 1px $black-rgba;
+      @include border-radius(10px);
+      box-shadow: 0 10px 6px -6px $black-rgba;
+      color: $base-text-color;
+
+      .form-inline {
+      min-width: 100%;
+
+      .form-group {
+        padding-top: 20px;
+        min-width: 75%;
+
+        .form-control {
+          font-family: $font-handletter;
+          min-width: 24%;
+        }
+      }
+    }
+
+    button {
+      width: 100px;
+    }
+  }
+}
+
+/* Search form */
+.search-form-container {
+  margin: 0;
+  padding-top: 10px;//zero after md
+  width: 100%;
+
+  span {
+    color: $gray-dark;
+  }
+
+  p {
+    font-family: $font-heading;
+  	padding-top: 1%;
+  	padding-bottom: 0.3%;
+  	font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .search-form {
+    padding-top: 16px;
+    margin-bottom: 10px;
+    min-width: 100%;
+    min-height: 100%;
+    border: solid 1px $black-rgba;
+    @include border-radius(10px);
+    box-shadow: 0 10px 6px -6px $black-rgba;
+    color: $base-text-color;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    #searchBoxText {
+      width: 100%;
+    }
+    #searchBoxButton {
+      margin-left: 5px;
+    }
+  }
+}
+
+/* MailChimp Newsletter form */
+  #mc_embed_signup{
+    background: transparent;
+    clear:left;
+    font-family: $font-heading;
+    width:100%;
+
+    input.email {
+      font-family: $font-handletter !important;
+      font-size: 1.5 !important;
+      padding: 1.3em !important;
+      width: 100% !important; //change after lg
+    }
+    input.email:hover, input.email:focus {
+      background-color: $accent-color-lighter-rgba;
+      border: solid 1px $accent-color-light;
+    }
+    .button {
+      font-family: $font-heading !important;
+      font-size: 0.8em !important;
+      font-weight: 400 !important;
+      background-color: $gray-dark !important;
+      border: solid 1px $black-rgba !important;
+      color: $off-white !important;
+      height: 2.8em !important;
+      width: 100% !important;
+    }
+
+    .button:hover, .button:focus {
+      background-color: $accent-color !important;
+      border: solid 1px $accent-color-dark !important;
+    }
+  }

@@ -1,0 +1,13 @@
+<!-- Under Construction -->
+	<section class="container-fluid text-xs-center">
+		{% assign notes-texts = site.data.across-texts[page.lang] | first %}
+	  <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
+	  <h2 class="summary-text handwrite-title">{{ page.lead-text }}</h2>
+		<br>
+		<div class="underconstruction-ribbon form-bg-pattern animation-element slide-left"><span class="sr-only">Ribbon with stripes</span></div>
+		<h2 class="underconstruction-text animation-element slide-left">{{ page.title | upcase }}
+		</h2>
+		<div class="underconstruction-ribbon form-bg-pattern animation-element slide-left"><span class="sr-only">Ribbon with stripes</span></div>
+		<br>
+	</section>
+	 {% include _components/buttons-back-to-top-buttom.html %}

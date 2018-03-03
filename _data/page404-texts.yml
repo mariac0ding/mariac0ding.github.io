@@ -1,0 +1,23 @@
+# Page 404 in English:
+# ---------------------- 
+en:
+-
+  leadtext: Sorry, the page you are looking for doesn't exist.
+  text: Please, check if you typed the address correctly or if you used an outdated link.    
+  hometextpart1: Try to go
+  hometextpart2: home
+  hometextpart3: instead
+  emailtextpart1: If you found a bronken link from another site or from our site, please
+  emailtextpart2: email me #"Email Us" if it's plural
+
+# Page 404 in Portuguese:
+# ---------------------- 04
+pt:
+-
+  leadtext: Desculpe, a página que procura não existe.
+  text: Por favor, verifique se digitou bem o endereço ou se está a usar um link desatualizado.
+  hometextpart1: Ou, experimente ir para a página de
+  hometextpart2: Início
+  hometextpart3: .
+  emailtextpart1: Se encontrou um hiperlink quebrado, clicou e não funciona, por favor envie um 
+  emailtextpart2: email. #"Email Us" if it's plural

@@ -1,0 +1,6 @@
+
+    {% for socialmedia in site.data.social-media %}
+      <a class="social-name-link" href="{{ socialmedia.url }}" target="_blank" title="{{ socialmedia.title }}">
+        <i class="fab fa-{{ socialmedia.tooltip }}" aria-hidden="true"><span class="sr-only">{{ socialmedia.title }} icon</span></i>
+      </a>
+    {% endfor %}

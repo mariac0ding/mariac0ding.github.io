@@ -1,0 +1,19 @@
+  <!-- Footer -->
+  <span class="handwrite-text footer-note text-right">⤹ Here will be the footer</span>
+  {% assign footer-texts = site.data.footer-texts[page.lang] | first %}
+   <!-- Copyright -->
+   <div class="container-fluid copyright">
+     {% assign fields = site.data.forms-fields-and-buttons[page.lang] | first %}
+     <!-- Copyright section -->
+          <span class="text-copyright handwrite-text text-muted d-md-flex justify-content-center align-items-center">
+              <br class="d-block d-md-none">
+              {{ footer-texts.credits }}
+              {{ footer-texts.copyright }}
+              {{ footer-texts.design }} &nbsp;
+              <a class="link-copyright" href="{{ site.baseurl }}{{ site.authorweb }}" title="{{ site.author}}'s website">{{ site.author}}</a>
+              <span class="d-none d-xs-inline d-sm-inline text-muted">  |  </span>
+              <br class="d-block d-md-none">
+              {{ footer-texts.see-site-map }} &nbsp;
+              <a class="link-copyright" href="{{ site.baseurl }}{{ footer-texts.map-site-url }}" title="URL {{ footer-texts.map-site }} page">{{ footer-texts.map-site }}</a>
+          </span>
+   </div><!-- End ofCopyright -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maria Coding</title>
+    <description>Font-end developer: HTML, CSS, JavaScript, Responsive Web Design, Web Accessibility, Usability, W3C Standards, SEO, Web Performance, Bootstrap, Jekyll, NodeJS, Gulp, GitHub, Git
+</description>
+    <link>http://localhost:8000/in-development/</link>
+    <atom:link href="http://localhost:8000/in-development/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Mar 2018 22:04:42 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Mar 2018 22:04:42 +0000</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+  </channel>
+</rss>

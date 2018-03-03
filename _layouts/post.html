@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<!-- Page Main Content -->
+<div class="main-content container-with-pdg">
+  <!-- Navbar aside -->
+  <aside class="container-fluid sidebar sidebar-right">
+		<!-- Tag Cloud -->
+		<section class="tag-cloud">
+			<h3 class="d-inline-flex"><a href="{{ site.baseurl }}/tags/">{{ texts.tag-cloud }}</a></h3>
+			<div class="tags">
+				{% include _aside/tag-cloud.html %}
+			</div>
+		</section>
+	</aside>
+
+	<!-- Page Article -->
+  <div class="article">
+		<!-- Article Header-->
+		<header>
+			<h1>Blog post</h1>
+			<div class="breadcrumbs">
+				<!--Post breadcrumb navegation-->
+				{% comment %} include header-breadcrumb-blog.html {% endcomment %}
+			</div>
+      <h2>{{ page.title }}</h2>
+			<div class="container-fluid bg-gray-color">
+	      <p class="small">{{ post-texts.read-in }}:
+					<a href="{{ site.baseurl }}{{ page.post-translation-link }}" class="text-muted small" title="{{ post-texts.click }} {{ post-texts.read-in }}">{{ page.post-translation-title }}</a>
+				</p>
+				<p class="post-meta small">{{ post-texts.published-date }}:
+					<time>{{ page.date | date: "%-d %b, %Y" }}</time>
+					{% if page.post-author %} • by {{ page.post-author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+				</p>
+				<p class="small">Tags:
+					<a href="{{ site.baseurl }}/tags/" title="{{ post-texts.click }} {{ post-texts.tags }}">
+						{{ page.tags | replace:'-', ' ' }}
+					</a>
+				</p>
+			</div>
+    </header>
+
+		<!-- Article Main Content-->
+		<h2 class="lead">{{ page.title }}</h2>
+    <span class="pg-notes handwrite-text">{{ page.subtitle }}</span>
+		<div>{{ content }}</div>
+
+		<!-- Article Footer-->
+		<footer>
+			<a href="?comments=1"><span>Show comments here...</span></a>
+		</footer>
+	</div> <!-- End of Page Article -->
+</div> <!-- End of Page Main Content -->

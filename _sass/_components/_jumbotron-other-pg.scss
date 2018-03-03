@@ -1,0 +1,105 @@
+/* JUMBOTROM's Variables--------------------------------------- */
+$jumbotron-top-xs: 980px;
+$jumbotron-top-sm: 575px;
+$jumbotron-top-md: 520px;
+$jumbotron-top-lg: 290px;
+$jumbotron-top-xl: 210px;
+$jumbotron-top-xxl: 100px;
+
+$jumbotron-right-xs: 1%;
+$jumbotron-right-sm: 15%;
+$jumbotron-right-md: 20%;
+$jumbotron-right-lg: 0;
+
+$jumbotron-left-lg: 400px;
+$jumbotron-left-xl: 300px;
+$jumbotron-left-xxl: 280px;
+
+$post-it-bg-width-xs: 280px;
+$post-it-bg-width-sm: 350px;
+$post-it-bg-width-md: 390px;
+$post-it-bg-width-lg: 395px;
+$post-it-bg-width-xl: 400px;
+$post-it-bg-width-xxl: 410px;
+
+$post-it-bg-height-xs: 240px;
+$post-it-bg-height-sm: 230px;
+$post-it-bg-height-md: 240px;
+$post-it-bg-height-lg: 230px;
+$post-it-bg-height-xl: 250px;
+$post-it-bg-height-xxl: 250px;
+
+/* JUMBOTROM's style */
+
+/* Jumbotron */
+.jumbotron {
+    position: absolute;
+    top: $jumbotron-top-xs;
+    right: $jumbotron-right-xs;
+    margin: 0 auto;
+    width: $post-it-bg-width-xs; /*equal to post-it*/
+    background-color: transparent;
+    @include translateY(-25px,-25px);
+
+  .jumbotron-text{
+    span {
+      color: $gray-dark;
+    }
+
+    h1 {
+      padding-top: 0.5em;
+      font-size: $font-size-base * 2.2;
+      color: $primary-color;
+      letter-spacing: 0.2em;
+      line-height: 90%;
+    }
+
+    p {
+      color: $accent-color-dark;
+      font-weight: 400;
+    }
+  }
+}
+/****** BACKGROUND PATTERNS ******/
+
+/* Jumbotron Post-it*/
+.post-it-bg { /* adapted from: https://mentormate.com/blog/css-postit-note/ */
+  width: $post-it-bg-width-xs;
+  height: $post-it-bg-height-xs;
+  min-width: 100%;
+  padding-top: 1px;
+  background: #ffff88; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(81%,#ffff88), color-stop(82%,#ffff88), color-stop(82%,#ffff88), color-stop(100%,#ffffc6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* IE10+ */
+  background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border:1px solid #E8E8E8;
+  border-top: 60px solid #fdfd86;
+  border-bottom-right-radius: 60px 5px;
+  @include rotate(9deg);
+  position: relative;
+  z-index: 0;
+}
+
+.post-it-bg:after {
+  content: "";
+  width: 100%;
+  min-width: 100%;
+  height: 1%;
+  min-height: 1%;
+  -webkit-transform: matrix(-1, 0.01, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0.01, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, 0.01, 0, 1, 0, 0);
+     -o-transform: matrix(-1, 0.01, 0, 1, 0, 0);
+      transform: matrix(-1, 0.01, 0, 1, 0, 0);
+  position:absolute;
+  right: 0;
+  bottom: 1%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.40);
+}

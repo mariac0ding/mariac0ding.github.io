@@ -1,0 +1,16 @@
+	{% assign jumbotron-text = site.data.jumbotron-texts[page.lang] | first %}
+	 <!-- Polaroid image -->
+	 <div class="polaroid-container d-flex flex-column order-1 order-md-2">
+		 <span class="handwrite-text">{{ jumbotron-text.polaroid }}</span>
+		 <div class="polaroid-img"><span class="sr-only">polaroid picture with laptop on a table</span></div>
+	 </div>
+
+	 <!-- Jumbotron -->
+	 <div class="jumbotron d-flex order-4">
+		 <div class="jumbotron-text text-center post-it-bg">
+			 <span class="handwrite-text">{{ jumbotron-text.post-it }}</span>
+			 <h1 class="special-letter">
+				 {{ page.subtitle}}</h1>
+			 <h2 class="handwrite-title">{{ page.lead-text }}</h2>
+		 </div>
+	 </div>

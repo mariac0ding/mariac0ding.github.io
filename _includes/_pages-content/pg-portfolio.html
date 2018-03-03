@@ -1,0 +1,54 @@
+<section class="container-fluid {{ site.body-class-bg }}">
+  {% assign notes-texts = site.data.across-texts[page.lang] | first %}
+  <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
+  <p class="summary-text handwrite-title">{{ page.lead-text }}</p>
+  {% assign portfolio-texts = site.data.page-portfolio-texts[page.lang] | first %}
+  <h2>{{ portfolio-texts.title }}</h2>
+  <p>{{ portfolio-texts.slogan }}</p>
+  <!-- My clients -->
+  <h3>{{ portfolio-texts.topic-clientes }}</h3>
+  <div class="my-clients card-deck">
+    {% assign projectos = site.data.portfolio[page.lang] | first %}
+     {% for project in projectos.portfolio %}
+       {% unless project.type == "for fun" or project.type == "para divertimento" %}
+      <div class="card">
+        <a href="{{ project.url }}">
+          <img class="card-img-top" src="{{ site.baseurl }}/{{ site.sass.sass_dir }}/{{ project.img-logo }}" alt="{{ project.name }}'s logo">
+        </a>
+        <div class="card-body">
+          <p class="card-title">{{ project.name }}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <strong>{{ portfolio-texts.project-industry }}:</strong>
+            {{ project.industry }}
+          </small>
+        </div>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+  <!-- My portfolio -->
+  <h3>{{ portfolio-texts.topic-project }}</h3>
+  {% for type-of-website in portfolio-texts.type-of-website %}
+  <h4>{{ type-of-website | capitalize }}</h4>
+  <div class="my-projects card-deck justify-content-between">
+    {% for project in projectos.portfolio %}
+      {% if project.type == type-of-website %}
+       <div class="card">
+         <iframe src="{{ project.url }}" alt="{{ project.url }}'s website" height="400" width="100%"></iframe>
+         <div class="card-body">
+           <h5 class="card-title">{{ project.name }}</h5>
+           <span>URL: <a href="{{ project.url }}">{{ project.url }}</a></span>
+           <p class="card-text">{{ project.description }}</p>
+         </div>
+         <div class="card-footer">
+           <small class="text-muted"><strong>Project type:</strong> {{ project.type }}</small>
+           <small class="text-muted"><strong>Features:</strong> {{ project.tags }}</small>
+         </div>
+       </div>
+       {% endif %}
+     {% endfor %}
+   </div>
+  {% endfor %}
+</section>

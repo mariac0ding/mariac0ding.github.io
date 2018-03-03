@@ -1,0 +1,179 @@
+# About in English:
+# ----------------------
+en:
+-
+  skill:
+    - name: HTML5
+      topic: Code languages
+      knowledge: 95
+
+    - name: CSS3
+      topic: Code languages
+      knowledge: 95
+
+    - name: JavaScript
+      topic: Code languages
+      knowledge: 60
+
+    - name: Liquid
+      topic: Code languages
+      knowledge: 90
+
+    - name: SQL
+      topic: Code languages
+      knowledge: 50
+
+    - name: Twitter Bootstrap
+      topic: Frameworks and processors
+      knowledge: 95
+
+    - name: Sass
+      topic: Frameworks and processors
+      knowledge: 95
+
+    - name: jQuery
+      topic: Frameworks and processors
+      knowledge: 50
+
+    - name: AngularJS
+      topic: Frameworks and processors
+      knowledge: 50
+
+    - name: WCS Standards
+      topic: Building web functionality
+      knowledge: 95
+
+    - name: Responsive Web Design
+      topic: Building web functionality
+      knowledge: 95
+
+    - name: Usability (UI & UX)
+      topic: Building web functionality
+      knowledge: 85
+
+    - name: Web Accessibility
+      topic: Building web functionality
+      knowledge: 95
+
+    - name: Cross-browser compatibility
+      topic: Building web functionality
+      knowledge: 80
+
+    - name: Graceful degradation/progressive enhancement
+      topic: Building web functionality
+      knowledge: 70
+
+    - name: Search Engine Optimization (SEO)
+      topic: Building web functionality
+      knowledge: 75
+
+    - name: Conversion Rate Optimization (CRO)
+      topic:  Building web functionality
+      knowledge: 50
+
+    - name: Jekyll (static site generator)
+      topic: Use to develop
+      knowledge: 95
+
+
+    - name: Git (version control system)
+      topic: Use to develop
+      knowledge: 85
+
+    - name: GitHub & Bitbucket (hosting service for version control)
+      topic: Use to develop
+      knowledge: 85
+
+    - name: Gulp (streaming build system)
+      topic: Use to develop
+      knowledge: 40
+
+# About in Portuguese:
+# ----------------------
+pt:
+-
+  skill:
+    - name: HTML5
+      topic: Linguagens
+      knowledge: 95
+
+    - name: CSS3
+      topic: Linguagens
+      knowledge: 95
+
+    - name: JavaScript
+      topic: Linguagens
+      knowledge: 60
+
+    - name: Liquid
+      topic: Linguagens
+      knowledge: 90
+
+    - name: SQL
+      topic: Linguagens
+      knowledge: 50
+
+    - name: Twitter Bootstrap
+      topic: Frameworks e processadores
+      knowledge: 95
+
+    - name: Sass
+      topic: Frameworks e processadores
+      knowledge: 95
+
+    - name: jQuery
+      topic: Frameworks e processadores
+      knowledge: 50
+
+    - name: AngularJS
+      topic: Frameworks e processadores
+      knowledge: 50
+
+    - name: WCS Standards
+      topic: Construir funcionalidades web
+      knowledge: 95
+
+    - name: Responsive Web Design
+      topic: Construir funcionalidades web
+      knowledge: 95
+
+    - name: Usability (UI & UX)
+      topic: Construir funcionalidades web
+      knowledge: 85
+
+    - name: Web Accessibility
+      topic: Construir funcionalidades web
+      knowledge: 95
+
+    - name: Cross-browser compatibility
+      topic: Construir funcionalidades web
+      knowledge: 80
+
+    - name: Graceful degradation/progressive enhancement
+      topic: Construir funcionalidades web
+      knowledge: 70
+
+    - name: Search Engine Optimization (SEO)
+      topic: Construir funcionalidades web
+      knowledge: 75
+
+    - name: Conversion Rate Optimization (CRO)
+      topic:  Construir funcionalidades web
+      knowledge: 50
+
+    - name: Jekyll (static site generator)
+      topic: Uso para programar
+      knowledge: 95
+
+
+    - name: Git (version control system)
+      topic: Uso para programar
+      knowledge: 85
+
+    - name: GitHub & Bitbucket (hosting service for version control)
+      topic: Uso para programar
+      knowledge: 85
+
+    - name: Gulp (streaming build system)
+      topic: Uso para programar
+      knowledge: 40

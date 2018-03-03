@@ -1,0 +1,131 @@
+/* Mixins*/
+@mixin prefixerPlus($name, $value) {
+-webkit-#{$name}: $value;
+-moz-#{$name}: $value;
+-ms-#{$name}: $value;
+-o-#{$name}: $value;
+#{$name}: $value;
+}
+
+@mixin background-size($size) {
+ -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@mixin box-shadow ($value, $value, $value, $value, $color) {
+    -webkit-box-shadow: $value $value $value $value $color;
+      -moz-box-shadow: $value $value $value $value $color;
+            box-shadow: $value $value $value $value $color;
+}
+
+@mixin skew($degree) {
+  -webkit-transform: skew($degree);
+    -moz-transform: skew($degree);
+      -o-transform: skew($degree);
+        transform: skew($degree);
+}
+
+@mixin rotate($degree) {
+  -webkit-transform: rotate($degree);
+    -moz-transform: rotate($degree);
+      -ms-transform: rotate($degree);
+       -o-transform: rotate($degree);
+          transform: rotate($degree);
+}
+
+@mixin rotateX($degree) {
+  -webkit-transform: rotateX($degree);
+    -moz-transform: rotateX($degree);
+      -ms-transform: rotateX($degree);
+       -o-transform: rotateX($degree);
+          transform: rotateX($degree);
+}
+
+@mixin translateY($degree, $degree) {
+  -webkit-transform: translateY($degree, $degree);
+    -moz-transform: translateY($degree, $degree);
+      -ms-transform: translateY($degree, $degree);
+       -o-transform: translateY($degree, $degree);
+          transform: translateY($degree, $degree);
+}
+
+@mixin translate3d($x-axis, $y-axis, $z-axis) {
+  -webkit-transform: translate3d($x-axis, $y-axis, $z-axis);
+  -moz-transform: translate3d($x-axis, $y-axis, $z-axis);
+  -ms-transform: translate($x-axis, $y-axis);
+    -o-transform: translate($x-axis, $y-axis);
+      transform: translate3d($x-axis, $y-axis, $z-axis  );
+}
+
+@mixin transform-origin($x-axis, $y-axis) {
+  -webkit-transform-origin: $x-axis $y-axis;
+    -moz-transform-origin: $x-axis $y-axis;
+      -ms-transform-origin: $x-axis $y-axis;
+       -o-transform-origin: $x-axis $y-axis;
+          transform-origin: $x-axis $y-axis;
+}
+
+@mixin transition-seconds($seconds) {
+  -webkit-transition: $seconds;
+    -moz-transition: $seconds;
+      -ms-transition: $seconds;
+       -o-transition: $seconds;
+          transition: $seconds;
+}
+
+@mixin transition-ease-in-out($seconds,$seconds) {
+  -webkit-transition: all $seconds ease-in-out $seconds;
+    -moz-transition: all $seconds ease-in-out $seconds;
+      -ms-transition: all $seconds ease-in-out $seconds;
+       -o-transition: all $seconds ease-in-out $seconds;
+          transition: all $seconds ease-in-out $seconds;
+}
+
+@mixin transition-linear($seconds) {
+  -webkit-transition: all $seconds linear;
+    -moz-transition: all $seconds linear;
+      -ms-transition: all $seconds linear;
+       -o-transition: all $seconds linear;
+          transition: all $seconds linear;
+}
+
+@mixin transform-perspective-rotateX-translateY-translateZ($length, $degree, $degree, $depth) {
+  -webkit-transform: perspective($length) rotateX($degree) translateY($degree) translateZ($depth);
+    -moz-transform: perspective($length) rotateX($degree) translateY($degree) translateZ($depth);
+      -ms-transform: perspective($length) rotateX($degree) translateY($degree) translateZ($depth);
+       -o-transform: perspective($length) rotateX($degree) translateY($degree) translateZ($depth);
+          transform: perspective($length) rotateX($degree) translateY($degree) translateZ($depth);
+}
+
+@mixin scaleX($degree) {
+  -webkit-transform: scaleX($degree);
+    -moz-transform: scaleX($degree);
+      -ms-transform: scaleX($degree);
+       -o-transform: scaleX($degree);
+          transform: scaleX($degree);
+}
+
+@mixin linear-gradient-left( $color, $color, $color) {
+  -webkit-linear-gradient: (left, $color, $color, $color);
+  -moz-linear-gradient: (left, $color, $color, $color);
+       -o-linear-gradient: (left, $color, $color, $color);
+          linear-gradient: (to right, $color, $color, $color);
+}
+
+@mixin matrix( $value, $value, $value, $value, $value, $value) {
+  -webkit-transform: matrix( $value, $value, $value, $value, $value, $value);
+    -moz-transform: matrix( $value, $value, $value, $value, $value, $value);
+      -ms-transform: matrix( $value, $value, $value, $value, $value, $value);
+        -o-transform: matrix( $value, $value, $value, $value, $value, $value);
+            transform: matrix( $value, $value, $value, $value, $value, $value);
+}

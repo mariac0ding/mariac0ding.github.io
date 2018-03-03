@@ -1,0 +1,19 @@
+# Footer in English:
+# ----------------------
+en:
+-
+  copyright: Copyright ©2015-2018 all rights reserved to
+  see-site-map: See the
+  map-site: Site Map
+  map-site-url: /sitemap.html
+  back-to-top: Back to top
+
+# Footer in Portuguese:
+# ----------------------
+pt:
+-
+  copyright: Copyright ©2018 todos os direitos são reservados a
+  see-site-map: Veja o
+  map-site: Mapa do Site
+  map-site-url: /pt/mapa-do-site.html
+  back-to-top: Voltar ao topo

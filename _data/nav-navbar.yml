@@ -1,0 +1,60 @@
+# Navigation:
+# ----------------------
+# NavBar in English
+en:
+-
+  text-langbar: Choose language →
+  text-socialmedia: ⤹ Can't forget to mention social media!!!
+  text-brand: ⤹ my brand
+  heading-navbar: My personal website
+  text-navbar: ⤹ Pages at the navbar
+  landing:
+    name:  <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Home icon</span></i>     # Liquid variable {{ nav-tabs.landing.name }}
+    path: /
+    img:
+  page2:
+    name: About
+    path: /about/
+    img:  pg-about-img.jpg
+  page3:
+    name: Portfolio      # with posts
+    path: /underconstruction.html
+    img:
+  page4:
+    name: Blog           # with posts
+    path: /underconstruction.html
+    img:
+  page5:
+    name: Contact
+    path: /contact/
+    img:  pg-contact-img.jpg
+
+# ----------------------
+# NavBar in Portuguese
+pt:
+-
+  text-langbar: Escolher o idioma →
+  text-socialmedia: ⤹ Não esquecer de mencionar os social media!!!
+  text-brand: ⤹ a minha marca
+  heading-navbar: Meu website pessoal
+  text-navbar: ⤹ Páginas da navbar
+  landing:
+    name:  <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Icone duma casa</span></i>   # texto é Início
+    path: /pt/
+    img:
+  page2:
+    name: Sobre
+    path: /pt/sobre/
+    img:  pg-about-img.jpg
+  page3:
+    name: Portfólio           # with posts
+    path: /pt/em-construcao.html
+    img:
+  page4:
+    name: Blog           # with posts
+    path: /pt/em-construcao.html
+    img:
+  page5:
+    name: Contactos
+    path: /pt/contactos/
+    img: pg-contact-img.jpg

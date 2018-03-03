@@ -1,0 +1,29 @@
+  <!--  page -->
+  <section class="container-fluid">
+    {% assign notes-texts = site.data.across-texts[page.lang] | first %}
+    <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
+    <p class="summary-text handwrite-title">{{ page.lead-text }}</p>
+    {% assign contact-texts = site.data.page-contact[page.lang] | first %}
+    <P>{{ contact-texts.text }} {{ contact-texts.note }}</P>
+  </section>
+  <div class="container-fluid contact-form d-flex flex-column align-items-center justify-content-center form-bg-pattern  animation-element slide-left">
+    <!-- English Contact Form-->
+    {% if page.lang == "en" %}
+    <div class="typeform-widget"
+      data-url="https://mariacoding.typeform.com/to/KSAxxq"
+      data-transparency="85">
+    </div>
+    <script>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    <div style="font-family: 'Reenie Beanie', cursive; font-size: 0.8em;color: #4e565d;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=KSAxxq&utm_source=typeform.com-11826832-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #4e565d" target="_blank">Typeform</a> </div>
+    {% endif %}
+    <!-- Portuguese Contact Form-->
+    {% if page.lang == "pt" %}
+    <div class="typeform-widget"
+      data-url="https://mariacoding.typeform.com/to/SQEvAe"
+      data-transparency="85">
+    </div>
+    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    <div style="font-family: 'Reenie Beanie', cursive; font-size: 0.8em;color: #4e565d;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=SQEvAe&utm_source=typeform.com-11826832-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #4e565d" target="_blank">Typeform</a> </div>
+    {% endif %}
+  </div>
+ {% include _components/buttons-back-to-top-buttom.html %}

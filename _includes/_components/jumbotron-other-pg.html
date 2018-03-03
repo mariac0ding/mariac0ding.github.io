@@ -1,0 +1,31 @@
+<!-- Hero to other pages (no landing pages) -->
+<!-- Page image -->
+<div class="pages-img-container d-flex flex-column order-1 order-md-2">
+	<span class="handwrite-text">{{ page.subtitle}}</span>
+{% assign nav-tabs = site.data.nav-navbar[page.lang] | first %}
+	{% if page.permalink == nav-tabs.page2.path %}
+	<div class="about-pg-img img-fluid rounded"><span class="sr-only">image of the {{ page.title }}'s page</span></div>
+	{% endif %}
+	{% if page.permalink == nav-tabs.page5.path %}
+	<div class="contact-pg-img img-fluid rounded"><span class="sr-only">image of the {{ page.title }}'s page</span></div>
+	{% endif %}
+	{% if page.permalink == "/sitemap.html" or page.permalink == "/pt/mapa-do-site.html" %}
+	<div class="sitmap-pg-img img-fluid rounded"><span class="sr-only">image of the {{ page.title }}'s page</span></div>
+	{% endif %}
+	{% if page.permalink == "/404.html" or page.permalink == "/pt/404.html" %}
+	<div class="erro404-pg-img img-fluid rounded"><span class="sr-only">image of the {{ page.title }}'s page</span></div>
+	{% endif %}
+	{% if page.permalink == "/underconstruction.html" or page.permalink == "/pt/em-construcao.html" %}
+	<div class="underconstruction-pg-img img-fluid rounded"><span class="sr-only">image of the {{ page.title }}'s page</span></div>
+	{% endif %}
+</div>
+
+<!-- Jumbotron -->
+<div class="jumbotron d-flex order-4">
+	<div class="jumbotron-text text-center post-it-bg">
+		{% assign notes-texts = site.data.across-texts[page.lang] | first %}
+		<span class="handwrite-text">{{ notes-texts.page-note }}</span>
+		<h1 class="handwrite-title">
+			{{ page.title}}</h1>
+	</div>
+</div>

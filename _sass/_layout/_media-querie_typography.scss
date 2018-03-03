@@ -1,0 +1,370 @@
+/*********************************/
+/*   Media Queries - THYPOGRAPHY  */
+/*********************************/
+
+/*************************************************************************************************************/
+/*  Small devices (landscape phones, 34em and up >=544px) ***************************************************/
+@media (min-width: $media-breakpoint-sm) {
+  /* HEADINGS */
+  h1 {font-size: $font-size-sm * 2.6;}
+  h2 {font-size: $font-size-sm * 2.15;}
+  h3 {font-size: $font-size-sm * 1.9;}
+  h4 {font-size: $font-size-sm * 1.7;}
+  h5 {font-size: $font-size-sm * 1.6;}
+  h6 {font-size: $font-size-sm * 1.5;}
+  h6.inverse-color {color: $gray-light;}
+
+  /* TEXT */
+  p, span {font-size: $font-size-sm * 1.3;}
+
+  /* Lead body copy */
+  .lead {font-size: $font-size-sm * 1.7;}
+
+  /* Emphasis */
+  sub {font-size: $font-size-sm * 0.6;}
+  sup {font-size: $font-size-sm * 0.6;}
+  small, .small {font-size: $font-size-sm;}
+  em {font-size: $font-size-sm;}
+
+  article {
+  	header {
+  		p, span {font-size: $font-size-sm * 0.9;}
+  	}
+  	footer {
+  		p, span {font-size: $font-size-sm * 0.9;}
+  	}
+  }
+
+  .initialism {font-size: $font-size-sm * 0.8;}
+
+  /* Addresses */
+  address {font-size: $font-size-sm * 1.2;}
+
+  /* Blockquotes */
+  blockquote, .blockquote {
+  	font-size: $font-size-sm * 1.3;
+  	p{line-height: $font-size-sm * 1.3;}
+    footer, .blockquote-footer {font-size: $font-size-sm;}
+  }
+
+  cite {font-size: $font-size-sm * 1.15;}
+
+  /* Block of Code */
+  code, pre, .blockcode {
+  	font-size: $font-size-sm * 1.2;
+  	p, span {font-size: $font-size-sm * 1.2;}
+  }
+
+  /* Lists */
+  li {font-size: $font-size-sm * 1.3;}
+
+  /* unordered list */
+  ul {
+  	li  {font-size: $font-size-sm * 1.3;}
+
+  	ul {
+  		li {font-size: $font-size-sm * 1.1;}
+  	}
+  }
+
+  /* ordered list */
+  ol {
+  	li {
+  		font-size: $font-size-sm * 1.3;
+  		ol {
+  			li {font-size: $font-size-sm * 1.1;}
+  		}
+  	}
+  }
+
+  /* description list */
+  dl {
+  	font-size: $font-size-sm * 1.3;
+    dt {font-size: $font-size-sm * 1.1;}
+    dd {font-size: $font-size-sm * 1.1;}
+  }
+
+  /* Letter Fonts */
+  .handletter {font-size: $font-size-sm * 1.8;}
+  .handwrite-text {font-size: $font-size-sm * 1.5;}
+
+}
+
+/* End of Media Queries - Small devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Medium devices (tablets, 48em and up >=768px) ***********************************************************/
+@media (min-width: $media-breakpoint-md) {
+  /* HEADINGS */
+  h1 {font-size: $font-size-md * 2.6;}
+  h2 {font-size: $font-size-md * 2.15;}
+  h3 {font-size: $font-size-md * 1.9;}
+  h4 {font-size: $font-size-md * 1.7;}
+  h5 {font-size: $font-size-md * 1.6;}
+  h6 {font-size: $font-size-md * 1.5;}
+  h6.inverse-color {color: $gray-light;}
+
+  /* TEXT */
+  p, span {font-size: $font-size-md * 1.3;}
+
+  /* Lead body copy */
+  .lead {font-size: $font-size-md * 1.7;}
+
+  /* Emphasis */
+  sub {font-size: $font-size-md * 0.6;}
+  sup {font-size: $font-size-md * 0.6;}
+  small, .small {font-size: $font-size-md;}
+  em {font-size: $font-size-md;}
+
+  article {
+    header {
+      p, span {font-size: $font-size-md * 0.9;}
+    }
+    footer {
+      p, span {font-size: $font-size-md * 0.9;}
+    }
+  }
+
+  .initialism {font-size: $font-size-md * 0.8;}
+
+  /* Addresses */
+  address {font-size: $font-size-md * 1.2;}
+
+  /* Blockquotes */
+  blockquote, .blockquote {
+    font-size: $font-size-md * 1.3;
+    p{line-height: $font-size-md * 1.3;}
+    footer, .blockquote-footer {font-size: $font-size-md;}
+  }
+
+  cite {font-size: $font-size-md * 1.15;}
+
+  /* Block of Code */
+  code, pre, .blockcode {
+    font-size: $font-size-md * 1.2;
+    p, span {font-size: $font-size-md * 1.2;}
+  }
+
+  /* Lists */
+  li {font-size: $font-size-md * 1.3;}
+
+  /* unordered list */
+  ul {
+    li  {font-size: $font-size-md * 1.3;}
+
+    ul {
+      li {font-size: $font-size-md * 1.1;}
+    }
+  }
+
+  /* ordered list */
+  ol {
+    li {
+      font-size: $font-size-md * 1.3;
+      ol {
+        li {font-size: $font-size-md * 1.1;}
+      }
+    }
+  }
+
+  /* description list */
+  dl {
+    font-size: $font-size-md * 1.3;
+    dt {font-size: $font-size-md * 1.1;}
+    dd {font-size: $font-size-md * 1.1;}
+  }
+
+  /* Letter Fonts */
+  .handletter {font-size: $font-size-md * 1.8;}
+  .handwrite-text {font-size: $font-size-md * 1.5;}
+
+}
+/*End of Media Queries - Medium devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ***********************************************************/
+@media (min-width: $media-breakpoint-lg) {
+  /* HEADINGS */
+  h1 {font-size: $font-size-lg * 2.6;}
+  h2 {font-size: $font-size-lg * 2.15;}
+  h3 {font-size: $font-size-lg * 1.9;}
+  h4 {font-size: $font-size-lg * 1.7;}
+  h5 {font-size: $font-size-lg * 1.6;}
+  h6 {font-size: $font-size-lg * 1.5;}
+  h6.inverse-color {color: $gray-light;}
+
+  /* TEXT */
+  p, span {font-size: $font-size-lg * 1.3;}
+
+  /* Lead body copy */
+  .lead {font-size: $font-size-lg * 1.7;}
+
+  /* Emphasis */
+  sub {font-size: $font-size-lg * 0.6;}
+  sup {font-size: $font-size-lg * 0.6;}
+  small, .small {font-size: $font-size-lg;}
+  em {font-size: $font-size-lg;}
+
+  article {
+    header {
+      p, span {font-size: $font-size-lg * 0.9;}
+    }
+    footer {
+      p, span {font-size: $font-size-lg * 0.9;}
+    }
+  }
+
+  .initialism {font-size: $font-size-lg * 0.8;}
+
+  /* Addresses */
+  address {font-size: $font-size-lg * 1.2;}
+
+  /* Blockquotes */
+  blockquote, .blockquote {
+    font-size: $font-size-lg * 1.3;
+    p{line-height: $font-size-lg * 1.3;}
+    footer, .blockquote-footer {font-size: $font-size-lg;}
+  }
+
+  cite {font-size: $font-size-lg * 1.15;}
+
+  /* Block of Code */
+  code, pre, .blockcode {
+    font-size: $font-size-lg * 1.2;
+    p, span {font-size: $font-size-lg * 1.2;}
+  }
+
+  /* Lists */
+  li {font-size: $font-size-lg * 1.3;}
+
+  /* unordered list */
+  ul {
+    li  {font-size: $font-size-lg * 1.3;}
+
+    ul {
+      li {font-size: $font-size-lg * 1.1;}
+    }
+  }
+
+  /* ordered list */
+  ol {
+    li {
+      font-size: $font-size-lg * 1.3;
+      ol {
+        li {font-size: $font-size-lg * 1.1;}
+      }
+    }
+  }
+
+  /* description list */
+  dl {
+    font-size: $font-size-lg * 1.3;
+    dt {font-size: $font-size-lg * 1.1;}
+    dd {font-size: $font-size-lg * 1.1;}
+  }
+
+  /* Letter Fonts */
+  .handletter {font-size: $font-size-lg * 1.8;}
+  .handwrite-text {font-size: $font-size-lg * 1.5;}
+
+}
+/*End of Media Queries - Large devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -Non-Retina Screens *********************/
+@media (min-width: $media-breakpoint-xl) {
+  /* HEADINGS */
+  h1 {font-size: $font-size-xl * 2.6;}
+  h2 {font-size: $font-size-xl * 2.15;}
+  h3 {font-size: $font-size-xl * 1.9;}
+  h4 {font-size: $font-size-xl * 1.7;}
+  h5 {font-size: $font-size-xl * 1.6;}
+  h6 {font-size: $font-size-xl * 1.5;}
+  h6.inverse-color {color: $gray-light;}
+
+  /* TEXT */
+  p, span {font-size: $font-size-xl * 1.3;}
+
+  /* Lead body copy */
+  .lead {font-size: $font-size-xl * 1.7;}
+
+  /* Emphasis */
+  sub {font-size: $font-size-xl * 0.6;}
+  sup {font-size: $font-size-xl * 0.6;}
+  small, .small {font-size: $font-size-xl;}
+  em {font-size: $font-size-xl;}
+
+  article {
+    header {
+      p, span {font-size: $font-size-xl * 0.9;}
+    }
+    footer {
+      p, span {font-size: $font-size-xl * 0.9;}
+    }
+  }
+
+  .initialism {font-size: $font-size-xl * 0.8;}
+
+  /* Addresses */
+  address {font-size: $font-size-xl * 1.2;}
+
+  /* Blockquotes */
+  blockquote, .blockquote {
+    font-size: $font-size-xl * 1.3;
+    p{line-height: $font-size-xl * 1.3;}
+    footer, .blockquote-footer {font-size: $font-size-xl;}
+  }
+
+  cite {font-size: $font-size-xl * 1.15;}
+
+  /* Block of Code */
+  code, pre, .blockcode {
+    font-size: $font-size-xl * 1.2;
+    p, span {font-size: $font-size-xl * 1.2;}
+  }
+
+  /* Lists */
+  li {font-size: $font-size-xl * 1.3;}
+
+  /* unordered list */
+  ul {
+    li  {font-size: $font-size-xl * 1.3;}
+
+    ul {
+      li {font-size: $font-size-xl * 1.1;}
+    }
+  }
+
+  /* ordered list */
+  ol {
+    li {
+      font-size: $font-size-xl * 1.3;
+      ol {
+        li {font-size: $font-size-xl * 1.1;}
+      }
+    }
+  }
+
+  /* description list */
+  dl {
+    font-size: $font-size-xl * 1.3;
+    dt {font-size: $font-size-xl * 1.1;}
+    dd {font-size: $font-size-xl * 1.1;}
+  }
+
+  /* Letter Fonts */
+  .handletter {font-size: $font-size-xl * 1.8;}
+  .handwrite-text {font-size: $font-size-xl * 1.5;}
+
+}
+/*End of Media Queries - Extra large devices -Non-Retina Screens
+---------------------------------------------------------------- */

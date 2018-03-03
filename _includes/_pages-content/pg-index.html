@@ -1,0 +1,93 @@
+<!-- skills -->
+ <session class="container-fluid my-skills">
+   {% assign about-texts = site.data.page-about-texts[page.lang] | first %}
+   <span class="pg-notes handwrite-text">{{ about-texts.summary-note }}</span>
+   <p class="summary-text handwrite-title" >{{ about-texts.summary-text }}</p>
+   <h3 class="text-xs-center text-md-left">{{ about-texts.skills-heading }}</h3>
+   <div  class="row">
+     <!-- skills: Code Languages -->
+     <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Code languages {% else %} Linguagens {% endif %}
+       <ul class="skills list-group-item list-inline">
+        {% assign skills = site.data.skills[page.lang] | first %}
+         {% for skill in skills.skill %}
+           {% if skill.topic == "Code languages" or skill.topic == "Linguagens" %}
+           <li class="skills-item handwrite-title">{{ skill.name }}
+             <div class="progress">
+               <div class="progress-bar progress-bar-striped bg-primary-light" role="progressbar" style="width: {{ skill.knowledge }}%" aria-valuenow="{{ skill.knowledge }}" aria-valuemin="0" aria-valuemax="{{ skill.knowledge }}"></div>
+             </div>
+           </li>
+           {% endif %}
+         {% endfor %}
+        </ul>
+      </div>
+      <!-- skills: Frameworks and processors -->
+      <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Frameworks and processors {% else %} Frameworks e processadores {% endif %}
+        <ul class="skills list-group-item list-inline">
+         {% assign skills = site.data.skills[page.lang] | first %}
+          {% for skill in skills.skill %}
+            {% if skill.topic == "Frameworks and processors" or skill.topic == "Frameworks e processadores" %}
+            <li class="skills-item handwrite-title">{{ skill.name }}
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped  bg-success" role="progressbar" style="width: {{ skill.knowledge }}%" aria-valuenow="{{ skill.knowledge }}" aria-valuemin="0" aria-valuemax="{{ skill.knowledge }}"></div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+         </ul>
+       </div>
+       <!-- skills: Building web functionality -->
+       <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Building web functionality {% else %} Construir funcionalidades web {% endif %}
+         <ul class="skills list-group-item list-inline">
+          {% assign skills = site.data.skills[page.lang] | first %}
+           {% for skill in skills.skill %}
+             {% if skill.topic == "Building web functionality" or skill.topic == "Construir funcionalidades web" %}
+             <li class="skills-item handwrite-title">{{ skill.name }}
+               <div class="progress">
+                 <div class="progress-bar progress-bar-striped bg-accent-color" role="progressbar" style="width: {{ skill.knowledge }}%" aria-valuenow="{{ skill.knowledge }}" aria-valuemin="0" aria-valuemax="{{ skill.knowledge }}"></div>
+               </div>
+             </li>
+             {% endif %}
+           {% endfor %}
+          </ul>
+        </div>
+        <!-- skills: Use to develop -->
+        <div class="skills-topic col-xs-12 col-md-6 handwrite-text  animation-element slide-left">{% if page.lang == "en" %} Use to develop {% else %} Uso para programar {% endif %}
+          <ul class="skills list-group-item list-inline">
+           {% assign skills = site.data.skills[page.lang] | first %}
+            {% for skill in skills.skill %}
+              {% if skill.topic == "Use to develop" or skill.topic == "Uso para programar" %}
+              <li class="skills-item handwrite-title">{{ skill.name }}
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: {{ skill.knowledge }}%" aria-valuenow="{{ skill.knowledge }}" aria-valuemin="0" aria-valuemax="{{ skill.knowledge }}"></div>
+                </div>
+              </li>
+              {% endif %}
+            {% endfor %}
+         </ul>
+       </div>
+   </div>
+ </session>
+
+ <div class="row d-flex justify-content-around">
+   <div class="newsletter-container col-xs-12 col-md-6 animation-element slide-left">
+     <!-- Newsletter form -->
+     <div class="container-fluid newsletter-form {{ site.newsletter-form-class-bg}}">
+       {% assign fields = site.data.forms-fields-and-buttons[page.lang] | first %}
+       <span class="handwrite-text">{{ fields.newsletter-text}}</span>
+       <p class="text-xs-center text-md-left">{{ fields.text-subscribe }}</p>
+        {% include _components/forms-newsletter.html %}
+     </div>
+   </div>
+
+   <div class="search-form-container col-xs-12 col-md-6 animation-element slide-left">
+     <!-- Search form -->
+     <div class="container-fluid search-form {{ site.search-form-class-bg}}">
+       {% assign fields = site.data.forms-fields-and-buttons[page.lang] | first %}
+       <span class="handwrite-text">{{ fields.search-text}} </span>
+       <p class="text-xs-center text-md-left">{{ fields.text-box }}</p>
+         {% include _components/forms-search-box.html %}
+
+     </div><!-- End of Search box -->
+   </div>
+ </div>
+ {% include _components/buttons-back-to-top-buttom.html %}

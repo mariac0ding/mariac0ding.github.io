@@ -1,0 +1,32 @@
+<!-- About me page -->
+<div class="container-fluid">
+  {% assign notes-texts = site.data.across-texts[page.lang] | first %}
+  <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
+  <p class="summary-text handwrite-title">{{ page.lead-text }}</p>
+  {% assign about-texts = site.data.page-about-texts[page.lang] | first %}
+  <section class=" animation-element slide-left">
+    <h2>{{ about-texts.profession }}</h2>
+    <p>{{ about-texts.description }}</p>
+  </section>
+  <hr>
+  <!-- Summary -->
+  <section class=" animation-element slide-left">
+    <h3>{{ about-texts.summary-heading }}</h3>
+    <p>{{ about-texts.summary-text }}</p>
+    <ul>
+    {% for topic in about-texts.topics %}
+      <li>{{ topic }}</li>
+    {% endfor %}
+    </ul>
+  </section>
+  <!-- Skylls -->
+  <section class=" animation-element slide-left">
+    <h4>{{ about-texts.skylls-heading }}</h4>
+    <ul>
+      {% for skyll in about-texts.skylls %}
+        <li>{{ skyll }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+ {% include _components/buttons-back-to-top-buttom.html %}

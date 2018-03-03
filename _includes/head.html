@@ -1,0 +1,28 @@
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }} | {{ site.authorweb }}">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+
+  <!-- Bootstrap Core CSS Version 4.0.0 -->
+  <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS Version 5.0.4 -->
+  <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/fontawesome-free-5.0.4/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+
+  <!--  Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Exo:300|Exo+2|Fira+Sans:300,400|Open+Sans|Reenie+Beanie" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  {% if page.permalink == "/" or page.permalink == "/pt/" %}
+  <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/css/home-pg-style.css" rel="stylesheet">
+  {% else %}
+  <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/css/other-pg-style.css" rel="stylesheet">
+  {% endif %}

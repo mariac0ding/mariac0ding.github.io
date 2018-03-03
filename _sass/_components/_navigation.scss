@@ -1,0 +1,204 @@
+/* NAVIGATION's Variables--------------------------------------- */
+$navbar-width-xs: 229px;
+$navbar-width-sm: 240px;
+$navbar-width-md: 328px;
+$navbar-width-lg: 345px;
+
+$social-media-width-xs: 310px;
+$social-media-width-sm: 420px;
+$social-media-width-md: 380px;
+$social-media-width-lg: 410px;
+$social-media-width-xl: 420px;
+$social-media-width-xxl: 310px;
+
+$social-media-top-xs: 750px;
+$social-media-top-sm: 520px;
+$social-media-top-md: 450px;
+$social-media-top-lg: 160px;
+$social-media-top-xl: 100px;
+$social-media-top-xxl: $top-bottom-margin-xs;
+
+$social-media-left-xs: 15%;
+$social-media-left-sm: 12%;
+$social-media-left-md: $left-right-margin-xs + 10px;
+$social-media-left-lg: 0;
+$social-media-left-xl: 5px;
+$social-media-left-xxl: 28%;
+
+$brand-top-xs: $top-bottom-margin-xs + 860px;
+$brand-top-sm: $top-bottom-margin-xs + 320px;
+$brand-top-md: $top-bottom-margin-xs + 430px;
+$brand-top-lg: $top-bottom-margin-xs + 10px;
+
+$brand-right-xs: 15%;
+$brand-right-sm: 50%;
+$brand-right-md: $left-right-margin-xs;
+$brand-right-lg: 38%;
+$brand-right-xl: 35%;
+$brand-right-xxl: 29%;
+
+$logo-width-xs: 150px;
+$logo-height-xs: 62px;
+$logo-width-sm: 190px;
+$logo-height-sm: 81px;
+$logo-width-md: 204px;
+$logo-height-md: 102px;
+$logo-width-lg: 204px;
+$logo-height-lg: 102px;
+
+/* Language bar------------------------------------------------ */
+/****** HEADER ******/
+/* Language bar */
+.language-bar {
+  position: absolute;
+  top: 0;
+  left: $left-right-margin-xs;
+  min-width: 210px;
+
+  .language-text {
+    display: inline-block;
+    color: $gray-dark;
+  }
+
+  .lang-name {
+    display: inline-block;
+    margin-top: 4px;
+
+    .lang-name-item {
+      font-family: $font-heading;
+      line-height: 0.6;
+      font-weight: 600;
+
+      .lang-name-link {
+        color: $base-text-color;
+        text-decoration: none;
+      }
+
+      .lang-name-link:hover {
+        color: $accent-color;
+        text-decoration: underline;
+      }
+    }
+    .lang-name-item.active {
+      .lang-name-link {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        color: $primary-color;
+        border: solid 2px $primary-color;
+        text-decoration: none;
+      }
+
+      .lang-name-link:hover {
+        color: $accent-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Navbar------------------------------------------------------ */
+.my-navbar {
+  position: absolute;
+  top: $top-bottom-margin-xs + 55px;
+  right: $left-right-margin-xs;
+  width: $navbar-width-xs;
+  max-width: 100%;
+  z-index: 1000;
+
+  .my-website  {
+    color: $primary-color;
+    text-decoration: underline;
+    text-align: right;
+  }
+
+  .navbar-text  {
+    color: $gray-dark;
+    text-align: left;
+    float: right;
+  }
+
+  nav, .navbar {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    float: right;
+  }
+
+  .navbar-light .navbar-nav .nav-item {
+    .nav-link {
+      width: $navbar-width-xs * 0.7;
+      padding: 0;
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+      color: $base-text-color;
+      font-weight: 600;
+      font-family: $font-heading;
+      font-size: 1.2;
+    }
+    .nav-link:hover {
+      color: $accent-color;
+    }
+    .nav-link:hover::after {
+      content: "⤶";
+      font-family: $font-handletter;
+      color: $gray-dark;
+    }
+  }
+
+  .navbar-light .navbar-nav .active {
+    .nav-link {
+      border-top: dotted 2px $primary-color;
+      border-left: dotted 2px $primary-color;
+      border-bottom: dotted 2px $primary-color;
+      color: $primary-color;
+    }
+    .nav-link::after {
+      content: "⤶";
+      font-family: $font-handletter;
+      color: $gray-dark;
+    }
+  }
+}
+
+/* Social Media ----------------------------------------------- */
+.social-media-container {
+  position: absolute;
+  top: $social-media-top-xs;
+  right: 20px; //sm = 0
+  width: $social-media-width-xs;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+
+  .social-name-text {
+    color: $gray-dark;
+    line-height: 0.9;
+  }
+
+  .social-media {
+    padding-right: 0.8em;
+    text-align: center;
+
+    .social-name-link {
+      padding-left: 3px;
+      padding-right: 3px;
+      font-size: 1.3em;
+      color: $base-text-color;
+      text-decoration: none;
+    }
+    .social-name-link:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Brand ------------------------------------------------------ */
+.my-brand {
+  position: absolute;
+  top: $brand-top-xs;
+  right: $brand-right-xs;
+  @include rotate(15deg);
+  background-color: transparent;
+  color: $gray-dark;
+}

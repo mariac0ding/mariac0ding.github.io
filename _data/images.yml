@@ -1,0 +1,74 @@
+intro-bg:
+  xs: https://farm5.staticflickr.com/4719/39988641322_b91f30a0e5_o.jpg
+  sm: https://farm5.staticflickr.com/4666/39988641212_6b2f0e9e65_o.jpg
+  md: https://farm5.staticflickr.com/4757/39988645852_39caa8350a_o.jpg
+  lg: https://farm5.staticflickr.com/4701/39122235485_6740a62006_o.jpg
+  xl: https://farm5.staticflickr.com/4694/39988640992_ec2a21938e_o.jpg
+  xxl: https://farm5.staticflickr.com/4663/39122233175_440ca897d7_o.jpg
+
+logo:
+  xs: https://farm5.staticflickr.com/4618/25149636707_17f7e28f81_o.jpg
+  sm: https://farm5.staticflickr.com/4613/39988639302_b397c3d62a_o.png
+  md: https://farm5.staticflickr.com/4631/25149638277_10617a52cd_o.png
+  lg: https://farm5.staticflickr.com/4698/25149638237_ddc84634b4_o.png
+  xl: https://farm5.staticflickr.com/4665/25149638087_9b68ea4d78_o.png
+
+logo2:
+  xs: https://farm5.staticflickr.com/4661/25149637727_4f7ac0b6cf_o.jpg
+  sm: https://farm5.staticflickr.com/4659/25149637617_c3138be927_o.jpg
+  md: https://farm5.staticflickr.com/4655/25149637077_d8c10b8e8a_o.jpg
+  lg: https://farm5.staticflickr.com/4699/25149636957_0188e22be0_o.jpg
+  xl: https://farm5.staticflickr.com/4613/25149636837_147f80cbe9_o.jpg
+
+logo-cover:
+  xs: https://farm5.staticflickr.com/4667/25149638607_4914ea9722_n.jpg
+  md: https://farm5.staticflickr.com/4667/25149638607_2fb0f44754_h.jpg
+  xl: https://farm5.staticflickr.com/4667/25149638607_72d57308b6_o.jpg
+
+no-landing-pg-hero:
+  xs: https://farm5.staticflickr.com/4674/25149638647_b66794c65c_c.jpg # ver se é para usar esta (pode ser fino de mais)
+  md: https://farm5.staticflickr.com/4674/25149638647_09d06d2275_h.jpg
+  xl: https://farm5.staticflickr.com/4674/25149638647_8d64b3a0fd_k.jpg
+  xxl: https://farm5.staticflickr.com/4674/25149638647_57ac8e1eb0_o.jpg
+
+pg-about:
+  xs: https://farm5.staticflickr.com/4656/26556825898_f77a893412_m.jpg
+  md: https://farm5.staticflickr.com/4656/26556825898_f77a893412_n.jpg
+  lg: https://farm5.staticflickr.com/4656/26556825898_f77a893412.jpg
+
+pg-blog:
+  xs: https://farm5.staticflickr.com/4632/26556826028_fc7d7a4ee2_m.jpg
+  md: https://farm5.staticflickr.com/4632/26556826028_fc7d7a4ee2_n.jpg
+  lg: https://farm5.staticflickr.com/4632/26556826028_73f5a4ea81_o.jpg
+
+pg-contat:
+  xs: https://farm5.staticflickr.com/4663/38617147600_e116075cf4_m.jpg
+  md: https://farm5.staticflickr.com/4663/38617147600_e116075cf4_n.jpg
+  lg: https://farm5.staticflickr.com/4663/38617147600_32e4450693_o.jpg
+
+pg-portofolio:
+  xs: https://farm5.staticflickr.com/4769/39532063475_9b1780dbd6_m.jpg
+  md: https://farm5.staticflickr.com/4769/39532063475_9b1780dbd6_n.jpg
+  lg: https://farm5.staticflickr.com/4769/39532063475_3cdaa109b2_o.jpg
+
+pg-sitmap:
+  xs: https://farm5.staticflickr.com/4659/38731919660_2ab0499810_m.jpg
+  md: https://farm5.staticflickr.com/4659/38731919660_2ab0499810_n.jpg
+  lg: https://farm5.staticflickr.com/4659/38731919660_2ab0499810.jpg
+
+pg-404page:
+  xs: https://farm5.staticflickr.com/4610/39831696884_3cee4528d0_m.jpg
+  md: https://farm5.staticflickr.com/4610/39831696884_3cee4528d0_n.jpg
+  lg: https://farm5.staticflickr.com/4610/39831696884_3cee4528d0.jpg
+
+
+pg-underconstrution:
+  xs: https://farm5.staticflickr.com/4650/40539413082_e21634b136_m.jpg
+  md: https://farm5.staticflickr.com/4650/40539413082_e21634b136_n.jpg
+  lg: https://farm5.staticflickr.com/4650/40539413082_e21634b136.jpg
+
+polaroid:
+  xs: https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583_m.jpg
+  sm: https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583_n.jpg
+  md: https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583.jpg
+  lg: https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583_b.jpg

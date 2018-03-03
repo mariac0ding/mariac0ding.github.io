@@ -1,0 +1,200 @@
+# ------------------------------------------------------
+# CONFIGURATIONS
+
+# Head Meta Configs
+title: Maria Coding
+description: > # this means to ignore newlines until "baseurl:"
+  Font-end developer: HTML, CSS, JavaScript, Responsive Web Design, Web Accessibility, Usability, W3C Standards, SEO, Web Performance, Bootstrap, Jekyll, NodeJS, Gulp, GitHub, Git
+baseurl: ""
+url: "http://mariacoding.com/"
+author: MariaCoding
+relative_permalinks: false # Jekyll defaults to using absolute permalinks instead of relative permalinks
+repository: mariac0ding/mariac0ding.github.io
+
+
+# Build settings
+safe: true # will be allowed on Github Pages
+markdown: kramdown
+highlighter: rouge
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+
+exclude:
+  - README.md
+  - LICENSE
+  - serve.sh
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
+# Posts Permalinks Configs
+show_drafts: false
+future: false # doesn't show posts with future dates
+permalink: /blog/post/:categories/:title/
+paginate_path: /:categories/page:num/
+
+# Pages Configs
+include: ['_pages']
+relative_permalinks: false
+
+# SASS settings
+sass:
+  sass_dir: assets
+  style: compressed
+
+
+# Settings for analytics
+analytics :
+  provider : google # Set 'provider' to the analytics provider you want to use. Set 'provider' to false to turn analytics off globally.
+  google :
+      tracking_id : 'UA-88748826-1'
+  getclicky :
+    site_id :
+
+# ------------------------------------------------------
+# CONTACTS
+
+# Website Author Contacts
+authorweb: http://mariacoding.com/
+authoremail: website@mariacoding.com
+
+#  Project Owner Contacts
+contact-data:
+  phone: +351 918 233 202
+  email: website@mariacoding.com
+  email-subject: Contact20%from20%Maria20%Coding-20%Website
+  address:
+    street: Rua João Pinto Ribeiro
+    city: Lisbon
+    zip-code: 1800-233
+    country: Portugal
+
+# Map
+map:
+    zoom: 16
+    address: Rua João Pinto Ribeiro, Lisboa, Portugal
+    address_details: /assets/images/logo-xs.jpg
+
+# Laguanges of this site #
+language:
+  first: en # If you do any changes here, you will have to change it on the scope configurations too
+  first-name: English
+  second: pt  # If you do any changes here, you will have to change it on the scope configurations too
+  second-name: Portuguese
+
+# ------------------------------------------------------
+# OTHER CONFIGURATIONS: Default Scope definitions
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      lang: "en"
+      lang_baseurl: ""
+      lang_url: "http://mariacoding.com/"
+
+
+  # Override only the pages with the path "pt"
+  # --------------------------------------------------------------------------------------------
+  -
+    scope:
+      path: "_pages/pt" # match with the folder name "pt"
+    values:
+      lang: "pt"
+      lang_baseurl: "/pt"
+      lang_url: "http://mariacoding.com/pt"
+
+
+  # For all POST
+  # --------------------------------------------------------------------------------------------
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values: # Write this layout on the front-matter
+      layout: "post"
+
+
+  # For all English POST
+  # ---------------------------
+  -
+    scope:
+      path: "_posts/"
+      type: "posts"
+    values:
+      lang: "en"
+      category: "en"
+
+  # For all Portuguese POST
+  # ---------------------------
+  -
+    scope:
+      path: "_posts/pt"
+      type: "posts"
+    values:
+      lang: "pt"
+      category: "pt"
+
+
+  # For all PAGES
+  # --------------------------------------------------------------------------------------------
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      show_on_navigation: false
+
+
+  # For Pages in Portuguese:
+  # -------------------------
+  -
+    scope:
+      path: "_pages/pt"
+      type: "pages"
+    values:
+      layout: "default"
+      show_on_navigation: false
+
+
+  # For all DRAFTS
+  # --------------------------------------------------------------------------------------------
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values: # Write this layout on the front-matter
+      layout: "post"
+      draft: true # Will not be randerized to the folder _site
+
+# ------------------------------------------------------
+# COLORS & IMAGES classes
+topnav-class-bg: bg-transparent
+brand-bar-class-bg: bg-transparent
+navbar-class-bg: bg-transparent
+social-bar-class-bg: bg-transparent
+language-bar-class-bg: bg-transparent
+footer-class-bg: bg-transparent
+body-class-bg: bg-transparent
+body-home-class-img: bg-transparent # If using this body cover image don't use Jumbotron - set as bg-transparent
+body-otherpg-class-img: body-otherpg-bg-img
+jumbotron-class-bg: bg-transparent  # If using this Jumbotron image don't use body cover - set as bg-transparent
+jumbotron-img-bg: bg-transparent
+otherpg-class-bg: bg-secondary-accent-color-lighter
+otherpg-img-bg: # no-landing-pg-hero-img
+newsletter-form-class-bg: form-bg-pattern
+search-form-class-bg: form-bg-pattern
+contact-form-class-bg: form-bg-pattern

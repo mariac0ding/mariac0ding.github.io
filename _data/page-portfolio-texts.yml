@@ -1,0 +1,40 @@
+# Portfolio:
+# ----------------------
+# Page in English
+en:
+-
+  title: Check some of my latest works
+  slogan: Create awesome designs to standout your site or product.
+  topic-clientes: Some of my clients
+  topic-project: Some of my projects
+  project-name: Project
+  project-industry: Industry
+  type-of-website:
+    - corporative website
+    - non-profit website
+    - personal website
+    - for fun
+  project-summary:
+    topic-title: Project summary
+    project-client: Organization
+    project-date: Date
+    project-website: Website
+  project-details:
+    topic-title: Project details
+    project-description: Project description
+    project-color-palette: Color palette
+    project-technology: Tec. Stack # listed simbols and text (HTML, CSS, JavaScript)
+    project-responsiveness: Responsiveness # insert image of the size of screens it is ready for
+    project-multilanguage: yes
+    validation:
+      html5: yes # insert image of the validation result
+      css3: yes # insert image of the validation result
+      acessibility:  yes # insert image of the validation result
+      mobile-redy: yes # insert image of the validation result
+
+# ----------------------
+# Page in Portuguese
+pt:
+-
+  title:  Veja alguns dos meus trabalhos mais recentes
+  slogan: Crie designs incríveis para destacar o seu website ou produto.

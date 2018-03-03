@@ -1,0 +1,58 @@
+/***************************************************************/
+/* Variables of STYLES CROSS ALL PAGES------------------------ */
+$body-max-width-sm: 544px;
+$body-max-width-md: 768px;
+$body-max-width-lg: 992px;
+$body-max-width-xl: 1200px;
+$body-max-width-xxl: 1500px;
+
+$left-right-margin-xs: 10px;
+$left-right-margin-sm: 15px;
+$left-right-margin-md: 50px;
+$left-right-margin-lg: 65px;
+$left-right-margin-xl: 100px;
+
+$top-bottom-margin-xs: 10px;
+$top-bottom-margin-sm: 15px;
+$top-bottom-margin-md: 40px;
+$top-bottom-margin-lg: 55px;
+$top-bottom-margin-xl: 50px;
+
+$footer-position-xs: 3490px;
+$footer-position-sm: 3240px;
+$footer-position-md: 2720px;
+$footer-position-lg: 2310px;
+$footer-position-xl: 2250px;
+$footer-position-xxl: 2140px;
+
+/***************************************************************/
+/* Variables of STYLES AT HOME PAGE------------------------ */
+$home-pg-header-height-xs: 1400px;
+$home-pg-header-height-sm: 960px;
+$home-pg-header-height-md: 970px;
+$home-pg-header-height-lg: 710px;
+$home-pg-header-height-xl: 750px;
+$home-pg-header-height-xxl: 570px;
+
+$home-pg-main-top-xs: $home-pg-header-height-xs + 30px;
+$home-pg-main-top-sm: $home-pg-header-height-sm + 40px;
+$home-pg-main-top-md: $home-pg-header-height-md + 60px;
+$home-pg-main-top-lg: $home-pg-header-height-lg + 70px;
+$home-pg-main-top-xl: $home-pg-header-height-xl + 80px;
+$home-pg-main-top-xxl: $home-pg-header-height-xxl + 80px;
+
+/***************************************************************/
+/* Variables of STYLES AT HOME PAGE------------------------ */
+$other-pg-header-height-xs: 1320px;
+$other-pg-header-height-sm: 900px;
+$other-pg-header-height-md: 890px;
+$other-pg-header-height-lg: 650px;
+$other-pg-header-height-xl: 580px;
+$other-pg-header-height-xxl: 470px;
+
+$other-pg-main-top-xs: $other-pg-header-height-xs + 15px;
+$other-pg-main-top-sm: $other-pg-header-height-sm + 25px;
+$other-pg-main-top-md: $other-pg-header-height-md + 40px;
+$other-pg-main-top-lg: $other-pg-header-height-lg + 70px;
+$other-pg-main-top-xl: $other-pg-header-height-xl + 80px;
+$other-pg-main-top-xxl: $other-pg-header-height-xxl + 80px;

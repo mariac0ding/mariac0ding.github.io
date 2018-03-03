@@ -1,0 +1,199 @@
+# Across pages text in ENGLISH
+# -----------------------------------------------------------------------------------------
+en:
+-
+  portfolio:
+    - name: Unhas Cor de Rosa
+      description: Website para um gabinete de unhas de gel e estética
+      industry: Nail sallon
+      url: http://unhascorderosa.com/
+      img-logo: images/portfolio/unha-cor-de-rosa-logo.png
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett: "#BD9A73 #92908E, #742948, #785A4C, #E380AD"
+      tags: [htm5, css3, responsive]
+      type: corporative website
+      order: 1
+
+    - name: Casa dos Açores da Bermuda
+      description: Website para associação sem fins lucrativos que promove os Açores e a cultura açoreana nas Bermudas
+      industry: Non-profit
+      url: http://casadosacoresbda.org/
+      img-logo: images/portfolio/casa-dos-acores-logo.png
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: true
+      color-palett:
+      tags: [htm5, css3, responsive]
+      type: non-profit website
+      order: 2
+
+    - name: NetPonto
+      description: Comunidade de programadores .NET que partilha conhecimento
+      industry: Non-profit
+      url: http://netponto.org/
+      img-logo: images/portfolio/netponto-logo.png
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett:
+      tags: [htm5, css3, responsive]
+      type: non-profit website
+      order: 3
+
+    - name: Arinda Rodrigues
+      description: Website pessoal de uma autora de manuais escolares e escritora
+      industry: Professional author/writer
+      url: http://arindarodrigues.com/
+      img-logo: images/portfolio/arinda-rodrigues-avatar.jpg
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett:
+      tags: [htm5, css3, responsive]
+      type: personal website
+      order: 4
+
+    - name: LiaCarving
+      description: Website pessoal de uma artesã maceneira e artista da madeira
+      industry: Professional joiner
+      url: http://liacarving.com/
+      img-logo: images/portfolio/lia-carving-logo.png
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett:
+      tags: [htm5, css3, responsive]
+      type: personal website
+      order: 5
+
+    - name: Industry 4.0
+      description: Projecto para um site
+      url: https://thimbleprojects.org/mariacoding/416923/
+      img-logo:
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett:
+      tags: [htm5, css3, javascript, responsive]
+      type: for fun
+      order: 6
+
+    - name: Christmas Tree
+      description: Postal de Natal com animações em pure CSS
+      url: http://mariacoding.com/merrychristmas.github.io/
+      img-logo:
+      mobile-redy: true
+      Responsive: true
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      acessibility: true
+      multilanguage: false
+      color-palett:
+      tags: [htm5, css3, javascript, responsive]
+      type: for fun
+      order: 7
+
+# Across pages text in PORTUGUESE
+# -----------------------------------------------------------------------------------------
+pt:
+-
+  portfolio:
+    - name: Unhas Cor de Rosa
+      description: Website para um gabinete de unhas de gel e estética
+      url: http://unhascorderosa.com/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, responsive]
+      type: corporative website
+      order: 1
+
+    - name: Casa dos Açores da Bermuda
+      description: Website para associação sem fins lucrativos que promove os Açores e a cultura açoreana nas Bermudas
+      url: http://casadosacoresbda.org/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, responsive]
+      type: non-profit website
+      order: 2
+
+    - name: NetPonto
+      description: Website para associação sem fins lucrativos que promove os Açores e a cultura açoreana nas Bermudas
+      url: http://netponto.org/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, responsive]
+      type: non-profit website
+      order: 3
+
+    - name: Arinda Rodrigues
+      description: Website pessoal de uma autora de manuais escolares e escritora
+      url: http://arindarodrigues.com/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, responsive]
+      type: personal website
+      order: 4
+
+    - name: LiaCarving
+      description: Website pessoal de uma artesã maceneira e artista da madeira
+      url: http://liacarving.com/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, responsive]
+      type: personal website
+      order: 5
+
+    - name: Industry 4.0
+      description: Projecto para um site
+      url: https://thimbleprojects.org/mariacoding/416923/
+      img-mobile:
+      img-tablet:
+      img-laptop:
+      img-desktop:
+      tags: [htm5, css3, javascript, responsive]
+      type: for fun
+      order: 6

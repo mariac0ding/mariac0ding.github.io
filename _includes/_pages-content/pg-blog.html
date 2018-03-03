@@ -1,0 +1,21 @@
+<section class="container-fluid">
+{% assign blog-texts = site.data.page-blog[page.lang] | first %}
+  <span class="pg-notes handwrite-text">{{ blog-texts.test }}</span>
+  <p class="summary-text handwrite-title">{{ blog-texts.note }}</p>
+
+  <h2>{{ blog-texts.posts-lang }}</h2>
+    <ul class="blog-posts">
+    {% assign posts=site.posts | where:"lang", "en" %}
+      {% for post in posts reversed %}
+      <li class="each-post">
+        <a class:"post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="post-date"> (date: <time>{{ post.date | date: "%-d %b, %Y"}})</time></span>
+        <div class="post-excerpt">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>'| remove: '<span>' | remove: '</span>'| remove: '<h2>' | remove: '</h2>'| remove: '<h3>' | remove: '</h3>'| remove: '<h4>' | remove: '</h4>' }}
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+
+</section>
+ {% include _components/buttons-back-to-top-buttom.html %}

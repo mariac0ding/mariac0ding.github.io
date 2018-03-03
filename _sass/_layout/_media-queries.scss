@@ -1,0 +1,516 @@
+/********************************************/
+/*      Media Queries -CROSS ALL PAGES      */
+/********************************************/
+/*  Breaking points*/
+$media-breakpoint-sm: 544px; //34em
+$media-breakpoint-md: 768px; //48em
+$media-breakpoint-lg: 992px; //62em
+$media-breakpoint-xl: 1200px; //75em
+$media-breakpoint-xxl: 1500px; // >93.75em
+
+/*************************************************************************************************************/
+/*  Small devices (landscape phones, 34em and up >=544px) ***************************************************/
+@media (min-width: $media-breakpoint-sm) {
+  /****** GENERAL ******/
+  body {
+    max-width: $media-breakpoint-sm;
+  }
+
+  footer {
+    //top: $footer-position-sm;
+    margin-top:  $top-bottom-margin-sm;
+    margin-left: $left-right-margin-sm;
+    margin-right: $left-right-margin-sm;
+    margin-bottom: $top-bottom-margin-sm;
+  }
+
+  /****** HEADER ******/
+  /* Language bar */
+  .language-bar {
+    .lang-name {
+      .lang-name-item {
+        margin-top: 0.4em;
+        }
+    }
+  }
+  /* Navbar */
+  .my-navbar {
+    width: $navbar-width-sm;
+
+    .navbar-light .navbar-nav .nav-item {
+      .nav-link {
+        width: $navbar-width-sm * 0.8;
+      }
+    }
+  }
+  /* Social Media */
+  .social-media-container {
+    top: $social-media-top-sm;
+    right: 0;
+    left: $social-media-left-sm;
+    width: $social-media-width-sm;
+  }
+
+  /* Brand */
+  .my-brand {
+    top: $brand-top-sm;
+    right: $brand-right-sm;
+
+    .my-logo {
+      background-image: url("../images/logo-sm.png");
+      width: $logo-width-sm;
+      height: $logo-height-sm;
+    }
+  }
+  /* Polaroid Cover */
+  .polaroid-container {
+    top: $polaroid-container-top-sm;
+    left: $polaroid-container-left-sm;
+
+    .polaroid-img {
+      background-image: url("https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583_n.jpg");
+      width: $polaroid-img-width-sm;
+      height: $polaroid-img-height-sm;
+    }
+    .polaroid-img::after {
+      top: $polaroid-img-height-sm - 25px;
+      font-size: 1.7em;
+    }
+  }
+
+  /* Poloroid photo at other pages */
+  .pages-img-container {
+    top: $pages-img-container-top-sm;
+    left: $pages-img-container-left-sm;
+    .about-pg-img::after {
+      top: $pg-about-img-height-sm - 18px;
+    }
+    .portfolio-pg-img::after {
+      top: $pages-img-height-sm - 25px;
+    }
+    .blog-pg-img::after {
+      top: $pages-img-height-sm - 25px;
+    }
+    .contact-pg-img::after {
+      top: $pages-img-height-sm - 25px;
+      }
+      .sitmap-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+      .erro404-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-sm - 25px;
+      }
+  }
+  /* Back to Top & and Go down to the bottom's buttons */
+  #scrollBtnContainer {
+    position: fixed;
+    bottom: $top-bottom-margin-sm;
+    right: $left-right-margin-sm;
+  }
+
+  /* Contact Form */
+  .contact-form {
+    height: $contact-form-height-sm + 70px;
+    .typeform-widget {
+      height: $contact-form-height-sm;
+    }
+  }
+}
+
+/* End of Media Queries - Small devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Medium devices (tablets, 48em and up >=768px) ***********************************************************/
+@media (min-width: $media-breakpoint-md) {
+  /****** GENERAL ******/
+  body {
+    max-width: $media-breakpoint-md;
+  }
+
+  footer {
+    //top: $footer-position-md;
+    margin-top:  $top-bottom-margin-md;
+    margin-left: $left-right-margin-md;
+    margin-right: $left-right-margin-md;
+    margin-bottom: $top-bottom-margin-md;
+  }
+  /****** HEADER ******/
+  /* Navbar */
+  .my-navbar {
+    top: $top-bottom-margin-xs;
+    width: $navbar-width-md;
+
+    .navbar-light .navbar-nav .nav-item {
+      .nav-link {
+        width: $navbar-width-md * 0.8;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+      }
+      .nav-link:hover::after {
+        content: "⤶ (when hovering)";
+      }
+    }
+
+    .navbar-light .navbar-nav .active {
+      .nav-link::after {
+        content: "⤶ (when active)";
+      }
+    }
+  }
+    /* Social Media */
+  .social-media-container {
+    top: $social-media-top-md;
+    left: $social-media-left-md;
+    width: $social-media-width-md;
+
+    .social-media {
+      padding-right: 1em;
+    }
+  }
+
+  /* Brand */
+  .my-brand {
+    top: $brand-top-md;
+    right: $brand-right-md;
+
+    .my-logo {
+      background-image: url("../images/logo-md.png");
+      width: $logo-width-md;
+      height: $logo-height-md;
+    }
+  }
+  /* Polaroid Cover */
+  .polaroid-container {
+    top: $polaroid-container-top-md;
+    left: $polaroid-container-left-md;
+
+    .polaroid-img {
+      background-image: url("https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583.jpg");
+      width: $polaroid-img-width-md;
+      height: $polaroid-img-height-md;
+    }
+
+    .polaroid-img::after {
+      top: $polaroid-img-height-md - 25px;
+      font-size: 1.7em;
+    }
+  }
+  /* Poloroid photo at other pages */
+  .pages-img-container {
+    top: $pages-img-container-top-md;
+    left: $pages-img-container-left-md;
+    .about-pg-img::after {
+      top: $pg-about-img-height-md - 18px;
+    }
+    .portfolio-pg-img::after {
+      top: $pages-img-height-md - 25px;
+    }
+    .blog-pg-img::after {
+      top: $pages-img-height-md - 25px;
+    }
+    .contact-pg-img::after {
+      top: $pages-img-height-md - 25px;
+      }
+      .sitmap-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+      .erro404-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-md - 25px;
+      }
+  }
+  /* Back to Top & and Go down to the bottom's buttons */
+  #scrollBtnContainer {
+    position: fixed;
+    bottom: $top-bottom-margin-md;
+    right: 0;
+  }
+  /* Contact Form */
+  .contact-form {
+    height: $contact-form-height-md + 70px;
+    .typeform-widget {
+      height: $contact-form-height-md;
+    }
+  }
+}
+/*End of Media Queries - Medium devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ***********************************************************/
+@media (min-width: $media-breakpoint-lg) {
+  /****** GENERAL ******/
+  body {
+    max-width: $media-breakpoint-lg;
+  }
+
+  footer {
+    //top: $footer-position-md;
+    margin-top:  $top-bottom-margin-lg;
+    margin-left: $left-right-margin-lg;
+    margin-right: $left-right-margin-lg;
+    margin-bottom: $top-bottom-margin-lg;
+  }
+  /****** HEADER ******/
+  /* Navbar */
+  .my-navbar {
+    width: $navbar-width-lg;
+
+    .navbar-light .navbar-nav .nav-item {
+      .nav-link {
+        width: $navbar-width-lg * 0.8;
+      }
+    }
+  }
+    /* Social Media */
+  .social-media-container {
+    top: $social-media-top-lg;
+    left: $social-media-left-lg;
+    width: $social-media-width-lg;
+  }
+  /* Brand */
+  .my-brand {
+    top: $brand-top-lg;
+    right: $brand-right-lg;
+
+    .my-logo {
+      background-image: url("../images/logo-lg.png");
+      width: $logo-width-lg;
+      height: $logo-height-lg;
+    }
+  }
+
+  /* Polaroid Cover */
+  .polaroid-container {
+    top: $polaroid-container-top-lg;
+    left: $polaroid-container-left-lg;
+    max-height: $polaroid-container-height-lg !important;
+    .polaroid-img {
+      width: $polaroid-img-width-lg;
+      height: $polaroid-img-height-lg;
+      max-height: $polaroid-img-height-lg;
+    }
+    .polaroid-img::after {
+      top: $polaroid-img-height-lg - 120px;
+      font-size: 1.9em;
+    }
+  }
+  /* Poloroid photo at other pages */
+  .pages-img-container {
+    top: $pages-img-container-top-lg;
+    left: $pages-img-container-left-lg;
+    .about-pg-img::after {
+      top: $pg-about-img-height-lg - 18px;
+    }
+    .portfolio-pg-img::after {
+      top: $pages-img-height-lg - 25px;
+    }
+    .blog-pg-img::after {
+      top: $pages-img-height-lg - 25px;
+    }
+    .contact-pg-img::after {
+      top: $pages-img-height-lg - 25px;
+      }
+      .sitmap-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+      .erro404-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-lg - 25px;
+      }
+  }
+  /* Back to Top & and Go down to the bottom's buttons */
+  #scrollBtnContainer {
+    position: fixed;
+    bottom: $top-bottom-margin-lg;
+    right: 10px;
+  }
+  /* Contact Form */
+  .contact-form {
+    height: $contact-form-height-lg + 70px;
+    .typeform-widget {
+      height: $contact-form-height-lg;
+    }
+  }
+}
+/*End of Media Queries - Large devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -Non-Retina Screens *********************/
+@media (min-width: $media-breakpoint-xl) {
+  /****** GENERAL ******/
+  body {
+    max-width: $media-breakpoint-xl;
+  }
+
+  footer {
+    //top: $footer-position-md;
+    margin-top:  $top-bottom-margin-xl;
+    margin-left: $left-right-margin-xl;
+    margin-right: $left-right-margin-xl;
+    margin-bottom: $top-bottom-margin-xl;
+  }
+  /* Social Media */
+  .social-media-container {
+    top: $social-media-top-xl;
+    left: $social-media-left-xl;
+    width: $social-media-width-xl;
+  }
+  /* Brand */
+  .my-brand {
+    right: $brand-right-xl;
+    .my-logo {
+      width: $logo-width-xl;
+      height: $logo-height-xl;
+    }
+  }
+  /* Polaroid Cover */
+  .polaroid-container {
+    top: $polaroid-container-top-xl;
+    left: $polaroid-container-left-xl;
+    max-height: $polaroid-container-height-xl;
+    .polaroid-img {
+      width: $polaroid-img-width-xl;
+      height: $polaroid-img-height-xl;
+    }
+    .polaroid-img::after {
+      top: $polaroid-img-height-xl - 25px;
+      font-size: 1.9em;
+    }
+  }
+  /* Poloroid photo at other pages */
+  .pages-img-container {
+    top: $pages-img-container-top-xl;
+    left: $pages-img-container-left-xl;
+    .about-pg-img::after {
+      top: $pg-about-img-height-xl - 18px;
+    }
+    .portfolio-pg-img::after {
+      top: $pages-img-height-xl - 25px;
+    }
+    .blog-pg-img::after {
+      top: $pages-img-height-xl - 25px;
+    }
+    .contact-pg-img::after {
+      top: $pages-img-height-xl - 25px;
+      }
+      .sitmap-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+      .erro404-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-xl - 25px;
+      }
+  }
+
+  /* Back to Top & and Go down to the bottom's buttons */
+  #scrollBtnContainer {
+    position: fixed;
+    bottom: $top-bottom-margin-xl;
+    right: 40px;
+  }
+  /* Contact Form */
+  .contact-form {
+    height: $contact-form-height-xl + 70px;
+    .typeform-widget {
+      height: $contact-form-height-xl;
+    }
+  }
+}
+/*End of Media Queries - Extra large devices -Non-Retina Screens
+---------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -RETINA Screens *************************/
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
+
+}
+
+/*End of Media Queries - Extra large devices - RETINA Screens
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (XXL Larg desktops, 93.75 and up ≥1500px) -Non-Retina Screens ***********************/
+@media (min-width: $media-breakpoint-xxl) {
+  /****** GENERAL ******/
+  body {
+    max-width: $media-breakpoint-xxl;
+  }
+
+  /* Social Media */
+  .social-media-container {
+    top: $social-media-top-xxl;
+    left: $social-media-left-xxl;
+    width: $social-media-width-xxl;
+  }
+  /* Brand */
+  .my-brand {
+    right: $brand-right-xxl;
+    .my-logo {
+      width: $logo-width-xxl;
+      height: $logo-height-xxl;
+    }
+  }
+  /* Polaroid Cover */
+  .polaroid-container {
+    top: $polaroid-container-top-xxl;
+    left: $polaroid-container-left-xxl;
+  }
+  
+  /* Poloroid photo at other pages */
+  .pages-img-container {
+    top: $pages-img-container-top-xxl;
+    left: $pages-img-container-left-xxl;
+    .about-pg-img::after {
+      top: $pg-about-img-height-xxl - 18px;
+    }
+    .portfolio-pg-img::after {
+      top: $pages-img-height-xxl - 25px;
+    }
+    .blog-pg-img::after {
+      top: $pages-img-height-xxl - 25px;
+    }
+    .contact-pg-img::after {
+      top: $pages-img-height-xxl - 25px;
+      }
+      .sitmap-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+      .erro404-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+      .underconstruction-pg-img::after {
+        top: $pages-img-height-xxl - 25px;
+      }
+  }
+  /* Contact Form */
+  .contact-form {
+    height: $contact-form-height-xxl + 70px;
+    .typeform-widget {
+      height: $contact-form-height-xxl;
+    }
+  }
+}
+/*End of Media Queries - Extra large devices -Retina Screens
+---------------------------------------------------------------------------------------------------------- */

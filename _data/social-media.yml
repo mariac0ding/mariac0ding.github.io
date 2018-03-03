@@ -1,0 +1,22 @@
+# Social Media Settings #
+- title: twitter
+  url: https://twitter.com/MariaCoding
+  tooltip: twitter
+- title: github
+  url: https://github.com/mariac0ding
+  tooltip: github
+- title: stack-overflow
+  url: http://stackoverflow.com/users/5675195/maria-coding
+  tooltip: stack-overflow
+- title: linkedin
+  url: https://linkedin.com/in/mariaproiete
+  tooltip: linkedin
+- title: facebook
+  url: https://www.facebook.com/MariaCoding/
+  tooltip: facebook-f
+- title: youtube
+  url: https://youtube.com/channel/UCKArcWxQpAAJC6IWwnzVLDg
+  tooltip: youtube
+- title: 500px
+  url: https://500px.com/maria-500px
+  tooltip: 500px

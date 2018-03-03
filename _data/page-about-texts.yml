@@ -1,0 +1,76 @@
+# About in English:
+# ----------------------
+en:
+-
+  about-text: About Me
+  profession: Front-end Developer and amateur Photographer
+  description: Coding is challenging which is why I love it. Studying and learning everyday. Very hands-on person and believe hard work pays off, sooner or later.
+  summary-heading: Summary
+  summary-note: ⤹ Writte about what I do and my skills
+  summary-text: Building visual and functional interfaces for web, mobile and desktop.
+  topics:
+    - Develop static websites and blogs with HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, AngularJS, AJAX, Jekyll, Git
+    - Design of responsive website and optimizing websites for mobile display
+    - Strict adherence to the W3C standards
+    - Ensure accessibility and usability, cross-browser compatibility for all major Internet browsers and SEO (Search Engine Optimization)
+    - Static site generation with Jekyll
+    - Clean coding with comments
+    - PSD to HTML5 / CSS3 & PDF / Document to HTML5 / CSS3 conversion
+    - WordPress theme installation, customization, plug-in integration, CSS fixing
+    - Source Control with Git, GitHub, and BitBucket
+  skills-heading: skills
+  skills:
+    - HTML5
+    - CSS3
+    - JavaScript
+    - SASS
+    - AngularJS
+    - GIT
+    - GitHub
+    - Twitter Bootstrap
+    - Jekyll
+    - Responsive Web Design
+    - Usability (UI & UX)
+    - Accessibility
+    - WCS Standards
+    - Cross-browser compatibility
+  motto: "&#8220; Do-so is better than say-so. So, be kind and present for the people in your life and willing to walk an extra mile to help someone or achieve your goals.
+ &#8221;"
+
+# About in Portuguese:
+# ----------------------
+pt:
+-
+  about: Sobre Mim
+  profession: Front-end Developer e fotografa amadora
+  description: Programar é desafiante e por isso adoro programar, tal como estudar e aprender todos os dias. Sou uma pessoa prática que gosta de pôr as "mãos-na-massa" e acredito que o trabalho árduo têm a sua devida recompença, mais cedo ou mais tarde.
+  summary-heading: Sumário
+  summary-note: ⤹ Escrever sobre o que faço e as minhas competências
+  summary-text: Construir interfaces visuais and functionais para a web, mobile e desktop.
+  topics:
+    - Desenvolver sites e blogs estáticos com HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, AngularJS, AJAX, Jekyll, Git
+    - Criação de website responsivos website e sua optimização para mobile display
+    - Estrita adesão aos padrões do W3C
+    - Assegurar a acessibilidade, a usabilidade, a compatibilidade entre os principais navegadores e SEO (optimização do mecanismos de busca)
+    - Geração de sites estáticos com Jekyll
+    - Código limpo com coméntários
+    - PSD para HTML5 / CSS3 & PDF / Documento para conversão em HTML5 / CSS3
+    - WordPress theme installation, customization, plug-in integration, CSS fixing
+    - Controlo de versões com Git, GitHub, and BitBucket
+  skills-heading: Competências
+  skills:
+    - HTML5
+    - CSS3
+    - JavaScript
+    - SASS
+    - AngularJS
+    - GIT
+    - GitHub
+    - Twitter Bootstrap
+    - Jekyll
+    - Responsive Web Design
+    - Usability (UI & UX)
+    - Accessibility
+    - WCS Standards
+    - Cross-browser compatibility
+  motto: "&#8220; Fazer é melhor que dizer. Por isso, seja gentil e presente para as pessoas na sua vida e preparado para fazer um quilometro extra se for para ajudar alguém ou atingir as suas metas. &#8221;"

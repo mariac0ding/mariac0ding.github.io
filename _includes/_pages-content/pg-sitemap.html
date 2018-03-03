@@ -1,0 +1,57 @@
+<!-- Site Map Page -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+		<section class="container-fluid">
+			{% assign notes-texts = site.data.across-texts[page.lang] | first %}
+			<span class="handwrite-text">{{ notes-texts.pg-text-note }}</span>
+			<p class="summary-text handwrite-title">{{ page.lead-text }}</p>
+			{% assign sitemap-texts = site.data.page-sitemap-texts[page.lang] | first %}
+			<h2>{{ sitemap-texts.pagestext}}</h2>
+		    <ul>
+		    {% for page in site.pages %}
+			   	{% if page.layout != nil %}  <!-- To skip pages missing layout-->
+			    	<li>
+					   <url>
+					   	   	<loc><a href="{{site.url}}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">{{site.url}} {{ site.baseurl }} {{ page.url | remove: 'index.html' }}</a></loc>
+					   </url>
+					</li>
+					{% endif %}
+		   	{% endfor %}
+			</ul>
+
+		 	<br>
+		 	<hr>
+		 	<br>
+
+			<h3>{{ sitemap-texts.poststext}}</h3>
+
+		  <h4>Post in English</h4>
+		  {% assign posts=site.posts | where:"lang", "en" %}
+		    {% for post in posts reversed %}
+		    <ul>
+		    	<li><a href="{{ site.baseurl }}{{ post.url }}" title="Go to this post page">{{ post.title }}</time></a><span class="small"> (date: <time>{{ post.date | date: "%-d %b, %Y" }})</span></li>
+		    </ul>
+				{% endfor %}
+
+		  <h4>Post in Portuguese</h4>
+		  {% assign posts=site.posts | where:"lang", "pt" %}
+		    {% for post in posts reversed %}
+		    <ul>
+		    	<li><a href="{{ site.baseurl }}{{ post.url }}" title="Go to this post page">{{ post.title }}</time></a><span class="small"> (date: <time>{{ post.date | date: "%-d %b, %Y" }})</span></li>
+		    </ul>
+				{% endfor %}
+		 	<br>
+		 	<hr class="drop-shadow">
+		 	<br>
+		 	<h3>{{ sitemap-texts.inftext }}</h3>
+		 	<ul>
+		 		<li>{{ sitemap-texts.modification }} <lastmod class="text-muted">{{ site.time | date: "%y-%m-%d" }}</lastmod></li>
+		 		<li>{{ sitemap-texts.frequency.text }} <changefreq class="text-muted">{{ sitemap-texts.frequency.value }}</changefreq></li>
+		 		<li>{{ sitemap-texts.priority.text }} <priority class="text-muted">{{ sitemap-texts.priority.value }}</priority></li>
+		  </ul>
+		</section>
+
+	</urlset>
+ {% include _components/buttons-back-to-top-buttom.html %}

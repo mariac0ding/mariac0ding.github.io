@@ -1,0 +1,78 @@
+/*
+	All rights reserved to Maria Coding
+	mariacoding.com | @mariacoding
+*/
+/*********************************/
+/*            HELPERS            */
+/*********************************/
+
+/* Sass Variables
+---------------------------------------------------------------- */
+@import "_helpers/fonts-variables";
+@import "_helpers/colors-variables";
+@import "_helpers/mixins-variables";
+@import "_helpers/base-style-variables.scss";
+/* End of Sass Variables
+---------------------------------------------------------------- */
+
+/*********************************/
+/*            BASE            */
+/*********************************/
+
+/* Typography
+---------------------------------------------------------------- */
+@import "_base/main-typography";
+/* End of Typography
+---------------------------------------------------------------- */
+
+/* Style crossing all pages
+---------------------------------------------------------------- */
+@import "_base/_cross-all-pages-base";
+@import "_base/_text-and-bg-colors-pattern";
+/* End of Style crossing all pages
+---------------------------------------------------------------- */
+
+
+/*********************************/
+/*         COMPONENTS            */
+/*********************************/
+
+/* Navigation
+---------------------------------------------------------------- */
+@import "_components/navigation";
+@import "_components/navigation-aside";
+@import "_components/footer";
+/* End of Navigation
+---------------------------------------------------------------- */
+
+/* Jumbotron
+---------------------------------------------------------------- */
+@import "_components/jumbotron-other-pg";
+/* End of Jumbotron
+---------------------------------------------------------------- */
+
+/* Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------------- */
+@import "_components/media-objects";
+@import "_components/buttons-labels-forms.scss";
+/*----------------------*/
+
+/* End of Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------------- */
+/*********************************/
+/*         PAGES           */
+/*********************************/
+/* Other Pages (except Home) */
+@import "_pages/other-pg-style";
+
+/*********************************/
+/*         LAYOUT           */
+/*********************************/
+
+/* Media Queries
+---------------------------------------------------------------- */
+@import "_layout/media-queries";
+@import "_layout/media-querie_typography";
+@import "_layout/media-queries-other-pg";
+/* End of Media Queries
+---------------------------------------------------------------- */

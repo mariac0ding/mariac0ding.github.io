@@ -1,0 +1,64 @@
+/* STYLE CROSS ALL PAGES--------------------------------------- */
+/****** GENERAL ******/
+html {
+  font-size: $font-size-root;
+  background-color: $off-white;
+}
+
+body {
+  margin: 0 auto;
+  background-color: transparent;
+  color: $base-text-color;
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
+  //overflow-x: hidden;
+ }
+
+ header {
+   position: relative;
+ }
+
+footer {
+ margin: 0 auto;
+ //position: absolute;
+ //top: $footer-position-xs;
+ margin-top:  $top-bottom-margin-xs;
+ margin-left: $left-right-margin-xs;
+ margin-right: $left-right-margin-xs;
+ margin-bottom: $top-bottom-margin-xs;
+ background-color: $white-rgba;
+ border: solid 1px $black-rgba;
+ @include border-radius(10px);
+ box-shadow: 2px 5px 5px $black-rgba;
+
+ .footer-note {
+   font-size: 0.9em;
+   line-height: 0.8;
+   color: $gray-dark;
+   text-align: right !important;
+ }
+ .copyright {
+   max-width: 100%;
+ }
+}
+
+/*animation element*/
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+/*animation element sliding left*/
+.animation-element.slide-left {
+  opacity: 0;
+  @include transition-linear(500ms);
+  @include translate3d(-100px, 0, 0);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  @include translate3d(0, 0, 0);
+}

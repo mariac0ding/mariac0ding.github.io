@@ -1,0 +1,317 @@
+/* Media-Objects's Variables--------------------------------------- */
+$logo-width-xs: 160px;
+$logo-height-xs: 80px;
+$logo-width-sm: 190px;
+$logo-height-sm: 95px;
+$logo-width-md: 204px;
+$logo-height-md: 102px;
+$logo-width-lg: 180px;
+$logo-height-lg: 90px;
+$logo-width-xl: 190px;
+$logo-height-xl: 95px;
+$logo-width-xxl: 202px;
+$logo-height-xxl: 100px;
+
+/* Home page */
+$polaroid-container-top-xs: $top-bottom-margin-xs+ 440px;
+$polaroid-container-top-sm: $top-bottom-margin-xs+ 70px;
+$polaroid-container-top-md: $top-bottom-margin-xs+ 80px;
+$polaroid-container-top-lg: $top-bottom-margin-xs+ 270px;
+$polaroid-container-top-xl: $top-bottom-margin-xs+ 190px;
+$polaroid-container-top-xxl: $top-bottom-margin-xs+ 120px;
+
+$polaroid-container-left-xs: 5%;
+$polaroid-container-left-sm: 1%;
+$polaroid-container-left-md: $left-right-margin-xs + 20px;
+$polaroid-container-left-lg: $left-right-margin-xs + 50px;
+$polaroid-container-left-xl: $left-right-margin-xs + 60px;
+$polaroid-container-left-xxl: $left-right-margin-xs + 70px;
+
+$polaroid-img-width-xs: 220px;
+$polaroid-img-height-xs: 186px;
+$polaroid-img-width-sm: 210px;
+$polaroid-img-height-sm: 178px;
+$polaroid-img-width-md: 288px;
+$polaroid-img-height-md: 243px;
+$polaroid-img-width-lg: 340px;
+$polaroid-img-height-lg: 387px;
+$polaroid-img-width-xl: 380px;
+$polaroid-img-height-xl: 325px;
+
+$polaroid-container-height-lg: $polaroid-img-height-lg;
+$polaroid-container-height-xl: $polaroid-img-height-xl + 30px;
+
+/* other pages */
+
+$pages-img-container-top-xs: 480px;
+$pages-img-container-top-sm: 80px;
+$pages-img-container-top-md: 90px;
+$pages-img-container-top-lg: 270px;
+$pages-img-container-top-xl: 200px;
+$pages-img-container-top-xxl: 100px;
+
+$pages-img-container-left-xs: 9%;
+$pages-img-container-left-sm: 3.5%;
+$pages-img-container-left-md: 5%;
+$pages-img-container-left-lg: 5%;
+$pages-img-container-left-xl: 5%;
+$pages-img-container-left-xxl: 5%;
+
+$pg-about-img-width-xs: 148px;
+$pg-about-img-height-xs: 175px;
+$pg-about-img-width-sm: 161px;
+$pg-about-img-height-sm: 195px;
+$pg-about-img-width-md: 185px;
+$pg-about-img-height-md: 225px;
+$pg-about-img-width-lg: 205px;
+$pg-about-img-height-lg: 250px;
+$pg-about-img-width-xl: 192px;
+$pg-about-img-height-xl: 234px;
+$pg-about-img-width-xxl: 226px;
+$pg-about-img-height-xxl: 275px;
+
+$pages-img-width-xs: 203px;
+$pages-img-height-xs: 175px;
+$pages-img-width-sm: 227px;
+$pages-img-height-sm: 195px;
+$pages-img-width-md: 263px;
+$pages-img-height-md: 225px;
+$pages-img-width-lg: 292px;
+$pages-img-height-lg: 250px;
+$pages-img-width-xl: 273px;
+$pages-img-height-xl: 234px;
+$pages-img-width-xxl: 321px;
+$pages-img-height-xxl: 275px;
+
+/* Images ------------------------------------------------ */
+.my-logo {
+  margin: 0 auto;
+  background-image: url("../images/logo-xs.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  @include background-size(contain);
+  width: $logo-width-xs;
+  height: $logo-height-xs;
+}
+
+/* Poloroid photo at Home page*/
+.polaroid-container {
+  position: absolute;
+  top: $polaroid-container-top-xs;
+  left: $polaroid-container-left-xs;
+  background-color: transparent;
+  text-align: center;
+  @include rotate(-15deg);
+
+   span {
+    margin: 0;
+    color: $gray-dark;
+  }
+
+  .polaroid-img {
+    margin: 0 auto;
+    background-image: url("https://farm5.staticflickr.com/4769/39696428574_5ae5a2c583_m.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    @include background-size(contain);
+    width: $polaroid-img-width-xs;
+    height: $polaroid-img-height-xs;
+
+  }
+  .polaroid-img::after {
+    content: "Working space, 2016";
+    position: absolute;
+    top: $polaroid-img-height-xs - 25px;
+    right: 4px;
+    width: 100%;
+    font-family: $font-handletter;
+    font-size: 1.65em;
+    font-weight: bold;
+    text-align: center;
+    color: $gray-darker;
+    text-shadow: 1px 1px $black;
+  }
+}
+
+/* Poloroid photo at other pages */
+.pages-img-container {
+  position: absolute;
+  top: $pages-img-container-top-xs;
+  left: $pages-img-container-left-xs;
+  background-color: transparent;
+  text-align: center;
+  @include rotate(-15deg);
+
+   span {
+    margin: 0;
+    color: $gray-dark;
+    line-height: 0.9;
+  }
+
+  .about-pg-img {
+    margin: 0 auto;
+    background-image: url("https://farm5.staticflickr.com/4656/26556825898_f77a893412_m.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    @include background-size(contain);
+    width: $pg-about-img-width-xs;
+    height: $pg-about-img-height-xs;
+    z-index: 1;
+    }
+
+  .about-pg-img::after {
+    content: "March, 2016";
+    position: absolute;
+    top: $pg-about-img-height-xs - 18px;
+    right: 4px;
+    width: 100%;
+    font-family: $font-handletter;
+    font-size: 1.65em;
+    font-weight: bold;
+    text-align: center;
+    color: $gray-darker;
+    text-shadow: 1px 1px $black;
+    z-index: 2;
+  }
+
+
+  .portfolio-pg-img {
+    margin: 0 auto;
+    background-image: url("https://farm5.staticflickr.com/4769/39532063475_9b1780dbd6_m.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    @include background-size(contain);
+    width: $pages-img-width-xs;
+    height: $pages-img-height-xs;
+  }
+
+  .portfolio-pg-img::after {
+    content: "Git sticker";
+    position: absolute;
+    top: $pages-img-height-xs - 25px;
+    right: 5px;
+    width: 100%;
+    font-family: $font-handletter;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    color: $gray-darker;
+    text-shadow: 1px 1px $black;
+  }
+
+
+  .blog-pg-img {
+    margin: 0 auto;
+    background-image: url("https://farm5.staticflickr.com/4632/26556826028_fc7d7a4ee2_m.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    @include background-size(contain);
+    width: $pages-img-width-xs;
+    height: $pages-img-height-xs;
+  }
+  .blog-pg-img::after {
+    content: "my geek lego";
+    position: absolute;
+    top: $pages-img-height-xs - 25px;
+    right: 5px;
+    width: 100%;
+    font-family: $font-handletter;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    color: $gray-darker;
+    text-shadow: 1px 1px $black;
+  }
+
+  .contact-pg-img {
+    margin: 0 auto;
+    background-image: url("https://farm5.staticflickr.com/4663/38617147600_e116075cf4_m.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    @include background-size(contain);
+    width: $pages-img-width-xs;
+    height: $pages-img-height-xs;
+  }
+  .contact-pg-img::after {
+    content: "Business card";
+    position: absolute;
+    top: $pages-img-height-xs - 25px;
+    right: 5px;
+    width: 100%;
+    font-family: $font-handletter;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    color: $gray-darker;
+    text-shadow: 1px 1px $black;
+    }
+
+    .sitmap-pg-img {
+      margin: 0 auto;
+      background-image: url("https://farm5.staticflickr.com/4659/38731919660_2ab0499810_m.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      @include background-size(contain);
+      width: $pages-img-width-xs;
+      height: $pages-img-height-xs;
+    }
+    .sitmap-pg-img::after {
+      content: "Sitemap draw";
+      position: absolute;
+      top: $pages-img-height-xs - 25px;
+      right: 5px;
+      width: 100%;
+      font-family: $font-handletter;
+      font-size: 1.75em;
+      font-weight: bold;
+      text-align: center;
+      color: $gray-darker;
+      text-shadow: 1px 1px $black;
+    }
+
+    .erro404-pg-img {
+      margin: 0 auto;
+      background-image: url("https://farm5.staticflickr.com/4610/39831696884_3cee4528d0_m.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      @include background-size(contain);
+      width: $pages-img-width-xs;
+      height: $pages-img-height-xs;
+      }
+    .erro404-pg-img::after {
+      content: "404's image";
+      position: absolute;
+      top: $pages-img-height-xs - 25px;
+      right: 5px;
+      width: 100%;
+      font-family: $font-handletter;
+      font-size: 1.75em;
+      font-weight: bold;
+      text-align: center;
+      color: $gray-darker;
+      text-shadow: 1px 1px $black;
+    }
+
+    .underconstruction-pg-img {
+      margin: 0 auto;
+      background-image: url("https://farm5.staticflickr.com/4650/40539413082_e21634b136_m.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      @include background-size(contain);
+      width: $pages-img-width-xs;
+      height: $pages-img-height-xs;
+    }
+    .underconstruction-pg-img::after {
+      content: "Seattle, 2016";
+      position: absolute;
+      top: $pages-img-height-xs - 25px;
+      right: 5px;
+      width: 100%;
+      font-family: $font-handletter;
+      font-size: 1.75em;
+      font-weight: bold;
+      text-align: center;
+      color: $gray-darker;
+      text-shadow: 1px 1px $black;
+    }
+}

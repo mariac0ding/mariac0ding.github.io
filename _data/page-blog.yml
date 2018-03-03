@@ -1,0 +1,16 @@
+# Blog in English:
+# ----------------------
+en:
+-
+  text: You can read here my blog posts
+  note: ⤹ My recent posts
+  posts-lang: Post in English
+
+
+# Blog in Portuguese:
+# ----------------------
+pt:
+-
+  text: Pode ler aqui os posts do meu blog
+  note: ⤹ meus posts mais recentes
+  posts-lang: Post em Português

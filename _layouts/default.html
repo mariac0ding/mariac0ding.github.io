@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include head.html %}
+</head>
+<body class="bg-pattern">
+  <header id="header">
+    {% include header.html %}
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer id="footer" class="footer flex-footer text-center {{ site.footer-class-bg }}">
+    {% include footer.html %}
+  </footer>
+
+  {% include _components/js.html %}
+</body>
+</html>

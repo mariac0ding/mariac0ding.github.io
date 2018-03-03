@@ -1,0 +1,62 @@
+/* Colors Variables*/
+/* NOTE:  WAVE validation BEFORE to assure ood contrast colors*/
+
+/* Gray, white and black */
+$black: #0e1111 !default;
+$black-rgba: rgba(14,17,17,0.3) !default;
+$gray-darker: #4e565d !default;
+$gray-dark: #7b7b7b !default;
+$gray: #bbbbbb !default;
+$gray-light: #cccccc !default;
+$gray-lighter: #f6f6f6 !default;
+$white: #FFF !default;
+$white-rgba: rgba(255,255,255,0.3) !default;
+$off-white: #f6f6f5 !default;
+
+/* Yellow, red, blue and green */
+$yellow: #d29b3b !default;
+$red: #e35660 !default;
+$blue: #1c90a9 !default;
+$green: #3bd29b !default;
+
+/* Color Palettes */
+$primary-color-darker-rgba: rgba(105,39,29,0.5) !default;
+$primary-color-darker: #69271d !default;
+$primary-color-dark-rgba: rgba(168,63,47,0.5) !default;
+$primary-color-dark: #a83f2f !default;
+$primary-color: #D24F3B !default;
+$primary-color-rgba: rgba(210,79,59,0.5) !default;
+$primary-color-light: #df8375 !default;
+$primary-color-light-rgba: rgba(223,131,117,0.5) !default;
+$primary-color-lighter: #f6dbd7 !default;
+$primary-color-lighter-rgba: rgba(246,219,215,0.5) !default;
+
+$inverse-color: $gray-darker !default;
+
+$accent-color-darker-rgba: rgba(11,67,63,0.5) !default;
+$accent-color-darker: #0b433f !default;
+$accent-color-dark-rgba: rgba(22,135,127,0.5) !default;
+$accent-color-dark: #16877f !default;
+$accent-color: #1CA99F !default;
+$accent-color-rgba: rgba(28,169,159,0.5) !default;
+$accent-color-light: #60c2bb !default;
+$accent-color-light-rgba: rgba(96,194,187,0.5) !default;
+$accent-color-lighter: #e8f6f5 !default;
+$accent-color-lighter-rgba: rgba(232,246,245,0.5) !default;
+
+$secondary-accent-color-darker: #483C34 !default;
+$secondary-accent-color-darker-rgba: rgba(72,60,52,0.8) !default;
+$secondary-accent-color-dark: #5B4C42 !default;
+$secondary-accent-color-dark-rgba: rgba(91,76,66,0.8) !default;
+$secondary-accent-color: #7C6451 !default;
+$secondary-accent-color-rgba: rgba(124,100,81,0.5) !default;
+$secondary-accent-color-light: #856F65 !default;
+$secondary-accent-color-light-rgba: rgba(133,111,101,0.5) !default;
+$secondary-accent-color-lighter: #dad3d0 !default;
+$secondary-accent-color-lighter-rgba: rgba(218,211,208,0.9) !default;
+
+$base-text-color: $gray-darker !default;
+$dark-text-color: $black !default;
+$inverse-text-color: $gray-lighter !default;
+
+$texthighlighted-color: #ffeb9b !default;

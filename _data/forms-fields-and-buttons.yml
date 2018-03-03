@@ -1,0 +1,58 @@
+# Forms Fields and Button #
+en:
+-
+  lang: en
+  newsletter-text: ⤹ to Subscribe my blog posts updates
+  form-newsletter: Newsletter Subscription
+  form-contact: Contact me
+  label-first-name: First Name
+  label-surname: Surname
+  label-email: E-mail
+  text-email: Enter here your email address
+  label-phone: Phone
+  label-address: Address
+  label-street:  Street
+  label-city:  City
+  label-zip-code: Zip-code
+  label-country:  Country
+  label-newsletter: Newsletter
+  button-subscribe: Subscribe
+  text-subscribe: Subscribe my blog posts updates
+  button-send: Send
+  button-more: More Info
+  text-box: Enter here your Google search
+  search-text: ⤹ enter here the Google search
+  search-box: Search
+  search-tooltip: <i class="fa fa-search" aria-hidden="true"><span class="sr-only">Search Button</span></i>
+  search-where:
+    option1: Search on my website
+    option2: Search on the WEB
+
+pt:
+-
+  lang: pt
+  newsletter-text: ⤹ Subscreva atualizações do meu blog
+  form-newsletter: Subscrição da Newsletter
+  form-contact: Contate-me
+  label-first-name: Nome próprio
+  label-surname: Sobrenome
+  label-email: E-mail
+  text-email: Escreva aqui o seu endereço eletrónico
+  label-phone: Telefone
+  label-address: Morada
+  label-street:  Rua
+  label-city:  Cidade
+  label-zip-code: Código-postal
+  label-country:  País
+  label-newsletter: Newsletter
+  button-subscribe: Subscrever
+  text-subscribe: Subscreva atualizações do blog
+  button-send: Enviar
+  button-more:  + Info
+  text-box: Escreva aqui a sua pesquisa no Google
+  search-text: ⤹ escreva aqui a procura no Google
+  search-box: Procurar
+  search-tooltip: <i class="fa fa-search" aria-hidden="true"><span class="sr-only">Botão Procurar</span></i>
+  search-where:
+    option1: Procure no meu site
+    option2: Procure na WEB

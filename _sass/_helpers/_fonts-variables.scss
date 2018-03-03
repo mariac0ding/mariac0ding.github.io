@@ -1,0 +1,40 @@
+/* Import Custom Fonts --------------------*/
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200,300");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono");
+@import url("https://fonts.googleapis.com/css?family=Handlee");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+
+@font-face {
+    font-family: 'HaloHand Letter';
+    src: url(../fonts/HaloHandletter.otf);
+}
+
+/* Fonts Variables*/
+$font-stack:  'Fira Sans Condensed', cursive !default;
+$font-heading: 'Cabin Sketch', cursive !default;
+$font-display: 'Cabin Sketch', cursive !default;
+$font-blockcode: 'Fira Mono', currier !default;
+$font-blockquotes: 'Reenie Beanie', cursive !default;
+$font-address: sans-serif, "open sans", Arial, Helvetica, sans-serif !default;
+$font-clean: 'Fira Sans Condensed', sans-serif !default;
+$font-handletter: 'Reenie Beanie', cursive !default;
+$font-special: 'HaloHand Letter', cursive !default;
+
+/*----------------*/
+$font-size-root: 18px !default;
+$font-size-base: 1em !default;
+$font-size-xl: 1.04em !default;
+$font-size-lg: 1.03em !default;
+$font-size-md: 1.02em !default;
+$font-size-sm: 1.01em !default;
+$font-size-h1: 2.5em !default;
+$font-size-h2: 2em !default;
+$font-size-h3: 1.75em !default;
+$font-size-h4: 1.5em !default;
+$font-size-h5: 1.25em !default;
+$font-size-h6: 1em !default;
+$font-size-brand: 1em !default;
+$font-size-address: 0.8em !default;
+$font-line-height-address: 0.95em !default;
+/*----------------*/

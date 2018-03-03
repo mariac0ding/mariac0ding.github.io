@@ -1,0 +1,273 @@
+/*********************************/
+/*   Media Queries - HOME PAGE   */
+/*********************************/
+
+/*************************************************************************************************************/
+/*  Small devices (landscape phones, 34em and up >=544px) ***************************************************/
+@media (min-width: $media-breakpoint-sm) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-sm;
+    left: $left-right-margin-sm;
+    right: $left-right-margin-sm;
+    bottom: $top-bottom-margin-sm;
+    height: $home-pg-header-height-sm;
+  }
+
+    main {
+      padding-top: $home-pg-main-top-sm;
+      margin-left: $left-right-margin-sm;
+      margin-right: $left-right-margin-sm;
+    }
+
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-sm;
+      right: $jumbotron-right-sm;
+      width: $post-it-bg-width-sm; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-sm * 2.2;}
+
+      h2 {font-size: $font-size-sm * 2.5;}
+    }
+  }
+  /****** BACKGROUND PATTERNS ******/
+    /* Jumbotron Post-it*/
+    .post-it-bg {
+      width: $post-it-bg-width-sm;
+      height: $post-it-bg-height-sm;
+    }
+}
+
+/* End of Media Queries - Small devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Medium devices (tablets, 48em and up >=768px) ***********************************************************/
+@media (min-width: $media-breakpoint-md) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-md;
+    left: $left-right-margin-md;
+    right: $left-right-margin-md;
+    bottom: $top-bottom-margin-md;
+    height: $home-pg-header-height-md;
+  }
+
+  main {
+    padding-top: $home-pg-main-top-md;
+    margin-left: $left-right-margin-md;
+    margin-right: $left-right-margin-md;
+  }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-md;
+      right: $jumbotron-right-md;
+      width: $post-it-bg-width-md; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-md * 2.2;}
+
+      h2 {font-size: $font-size-md * 2.5;}
+    }
+  }
+  /****** MAIN ******/
+  .search-form-container {
+    padding-top: 0px;//it was 10px for xl and sm
+    .search-form {
+      #searchBoxText {
+        width: 80%;
+      }
+    }
+  }
+  /* MailChimp Newsletter form */
+
+
+  /****** BACKGROUND PATTERNS ******/
+  /* Jumbotron Post-it*/
+  .post-it-bg {
+    width: $post-it-bg-width-md;
+    height: $post-it-bg-height-md;
+  }
+}
+/*End of Media Queries - Medium devices
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ***********************************************************/
+@media (min-width: $media-breakpoint-lg) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-lg;
+    left: $left-right-margin-lg;
+    right: $left-right-margin-lg;
+    bottom: $top-bottom-margin-lg;
+    height: $home-pg-header-height-lg;
+  }
+
+  main {
+    padding-top: $home-pg-main-top-lg;
+    margin-left: $left-right-margin-lg;
+    margin-right: $left-right-margin-lg;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-lg;
+      left: $jumbotron-left-lg;
+      width: $post-it-bg-width-lg; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-lg * 2.2;}
+
+      h2 {font-size: $font-size-lg * 2.5;}
+    }
+  }
+    /****** MAIN ******/
+    /* Newsletter form */
+    .newsletter-container {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    /* Search form */
+    .search-form-container {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+
+      #searchBoxText {
+        width: 100% !important;
+      }
+    }
+  /* MailChimp Newsletter form */
+    #mc_embed_signup{
+      input.email {
+        width: 68% !important;
+      }
+      .button {
+        width: 100% !important;
+      }
+    }
+  /****** BACKGROUND PATTERNS ******/
+    /* Jumbotron Post-it*/
+    .post-it-bg {
+      width: $post-it-bg-width-lg;
+      height: $post-it-bg-height-lg;
+    }
+}
+/*End of Media Queries - Extra large devices -Non-Retina Screens
+---------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - NON RETINA Screens *************************/
+@media (min-width: $media-breakpoint-xl) {
+  /****** HEADER ******/
+  .my-header {
+    top: $top-bottom-margin-xl;
+    left: $left-right-margin-xl;
+    right: $left-right-margin-xl;
+    bottom: $top-bottom-margin-xl;
+    height: $home-pg-header-height-xl;
+  }
+
+  main {
+    padding-top: $home-pg-main-top-xl;
+    margin-left: $left-right-margin-xl;
+    margin-right: $left-right-margin-xl;
+  }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-xl;
+      left: $jumbotron-left-xl;
+      width: $post-it-bg-width-xl; /*equal to post-it*/
+
+    .jumbotron-text{
+      h1 {font-size: $font-size-xl * 2.2;}
+
+      h2 {font-size: $font-size-xl * 2.5;}
+    }
+  }
+  /****** MAIN ******/
+  /* Newsletter form */
+  .newsletter-container {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Search form */
+  .search-form-container {
+    #searchBoxText {
+      width: 100% !important;
+    }
+  }
+  /* MailChimp Newsletter form */
+  #mc_embed_signup{
+    input.email {
+      width: 73% !important;
+    }
+  }
+/****** BACKGROUND PATTERNS ******/
+  /* Jumbotron Post-it*/
+  .post-it-bg {
+    width: $post-it-bg-width-xl;
+    height: $post-it-bg-height-xl;
+  }
+}
+/*End of Media Queries - Extra large devices -Non-Retina Screens
+---------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) -RETINA Screens *************************/
+@media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
+
+
+}
+
+/*End of Media Queries - Extra large devices - RETINA Screens
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/*************************************************************************************************************/
+/*  Extra large devices (XXL Larg desktops, 93.75 and up ≥1500px) -Non-Retina Screens ***********************/
+@media (min-width: $media-breakpoint-xxl) {
+  /****** HEADER ******/
+  .my-header {
+    height: $home-pg-header-height-xxl;
+  }
+  main {
+    padding-top: $home-pg-main-top-xxl;
+  }
+  /* Jumbotron */
+  .jumbotron {
+      top: $jumbotron-top-xxl;
+      left: $jumbotron-left-xxl;
+      width: $post-it-bg-width-xxl; /*equal to post-it*/
+  }
+  /* MailChimp Newsletter form */
+    #mc_embed_signup{
+      input.email {
+        width: 80% !important;
+      }
+    }
+  /****** BACKGROUND PATTERNS ******/
+  /* Jumbotron Post-it*/
+  .post-it-bg {
+    width: $post-it-bg-width-xxl;
+    height: $post-it-bg-height-xxl;
+  }
+}
+/*End of Media Queries - Extra large devices -Retina Screens
+---------------------------------------------------------------------------------------------------------- */

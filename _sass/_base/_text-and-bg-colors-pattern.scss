@@ -1,0 +1,300 @@
+/* Background colors */
+
+.bg-faded {
+  background-color: $gray-lighter;
+}
+a.bg-faded:focus, a.bg-faded:hover {
+  background-color: $gray-light !important;
+}
+
+.bg-black {  /* my class */
+  background-color: $black !important;
+}
+a.bg-black:focus, a.bg-black:hover {
+  background-color: $gray-darker!important;
+}
+
+.bg-black-grid {  /* my class */
+  background-color: $black-rgba !important;
+}
+a.bg-black-grid:focus, a.bg-black-grid:hover {
+  background-color: $gray-light !important;
+  color: $inverse-text-color;
+}
+
+.bg-white-grid {  /* my class */
+  background-color: $white-rgba !important;
+}
+a.bg-white-grid:focus, a.bg-white-grid:hover {
+  background-color: $gray-lighter !important;
+}
+
+.bg-gray-light-color {
+  background: $gray-light;
+}
+a.bg-gray-light-color:focus, a.bg-gray-light-color:hover {
+  background-color: $gray !important;
+}
+
+.bg-gray-color {
+  background: $gray;
+}
+a.bg-gray-color:focus, a.bg-gray-color:hover {
+  background-color: $gray-light !important;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+a.bg-transparent:focus, a.bg-transparent:hover {
+  background-color: $black-rgba !important;
+}
+
+.bg-primary-darker { /* my class */
+  background-color: $primary-color-darker !important;
+}
+a.bg-primary-darker:focus, a.bg-primary-darker:hover {
+  background-color: $primary-color-dark !important;
+}
+
+.bg-primary-dark { /* my class */
+  background-color: $primary-color-dark !important;
+}
+a.bg-primary-dark:focus, a.bg-primary-dark:hover {
+  background-color: $primary-color-darker !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+a.bg-primary:focus, a.bg-primary:hover {
+  background-color: $primary-color-dark !important;
+}
+
+.bg-primary-rgba { /* my class */
+  background-color: $primary-color-rgba !important;
+}
+a.bg-primary-rgba:focus, a.bg-primary-rgba:hover {
+  background-color: $primary-color !important;
+}
+
+.bg-primary-light { /* my class */
+  background-color: $primary-color-light !important;
+}
+a.bg-primary-light:focus, a.bg-primary-light:hover {
+  background-color: $primary-color !important;
+}
+
+.bg-primary-lighter { /* my class */
+  background-color: $primary-color-lighter !important;
+}
+a.bg-primary-lighter:focus, a.bg-primary-lighter:hover {
+  background-color: $primary-color-rgba !important;
+}
+
+.bg-accent-color-darker { /* my class */
+  background-color: $accent-color-darker !important;
+}
+a.bg-accent-color-darker :focus, a.bg-accent-color-darker:hover {
+  background-color: $accent-color-dark !important;
+}
+
+.bg-accent-color-dark { /* my class */
+  background-color: $accent-color-dark !important;
+}
+a.bg-accent-color-dark:focus, a.bg-accent-color-dark:hover {
+  background-color: $accent-color-darker !important;
+}
+
+.bg-accent-color { /* my class */
+  background-color: $accent-color !important;
+}
+a.bg-accent-color:focus, a.bg-accent-color:hover {
+  background-color: $accent-color-dark !important;
+}
+
+.bg-accent-rgba { /* my class */
+  background-color: $accent-color-rgba !important;
+}
+a.bg-accent-rgba:focus, a.bg-accent-rgba:hover {
+  background-color: $accent-color-lighter !important;
+}
+
+.bg-accent-color-light { /* my class */
+  background-color: $accent-color-light !important;
+}
+a.bg-accent-color-light:focus, a.bg-accent-color-light:hover {
+  background-color: $accent-color-lighter !important;
+}
+
+
+.bg-accent-color-lighter { /* my class */
+  background-color: $accent-color-lighter !important;
+}
+a.bg-accent-color-lighter:focus, a.bg-accent-color-lighter:hover {
+  background-color: $accent-color-light !important;
+}
+
+.bg-secondary-accent-color-darker { /* my class */
+  background-color: $secondary-accent-color-darker !important;
+}
+a.bg-secondary-accent-color-darker:focus, a.bg-secondary-accent-color-darker:hover {
+  background-color: $secondary-accent-color-dark !important;
+}
+
+.bg-secondary-accent-color-dark { /* my class */
+  background-color: $secondary-accent-color-dark !important;
+}
+a.bg-secondary-accent-color-dark:focus, a.bg-secondary-accent-color-dark:hover {
+  background-color: $secondary-accent-color-darker !important;
+}
+.bg-secondary-accent-color { /* my class */
+  background-color: $secondary-accent-color !important;
+}
+a.bg-secondary-accent-color:focus, a.bg-secondary-accent-color:hover {
+  background-color: $secondary-accent-color-dark !important;
+}
+
+.bg-secondary-accent-rgba { /* my class */
+  background-color: $secondary-accent-color-rgba !important;
+}
+a.bg-secondary-accent-rgba:focus, a.bg-secondary-accent-rgba:hover {
+  background-color: $secondary-accent-color-light !important;
+}
+
+.bg-secondary-accent-color-light { /* my class */
+  background-color: $secondary-accent-color-light !important;
+}
+a.bg-secondary-accent-color-light:focus, a.bg-secondary-accent-color-light:hover {
+  background-color: $secondary-accent-color-lighter !important;
+}
+
+.bg-secondary-accent-color-lighter { /* my class */
+  background-color: $secondary-accent-color-lighter !important;
+}
+a.bg-secondary-accent-color-lighter:focus, a.bg-secondary-accent-color-lighter:hover {
+  background-color: $secondary-accent-color-light !important;
+}
+
+.bg-inverse {
+  background-color: $gray-darker !important;
+}
+a.bg-inverse:focus, a.bg-inverse:hover {
+  background-color: $black !important;
+}
+
+.bg-info {
+  background-color: $blue !important;
+}
+
+.bg-warning {
+  background-color: $yellow !important;
+}
+
+.bg-sucess {
+  background-color: $green !important;
+}
+
+.bg-danger {
+  background-color: $red !important;
+}
+
+/* Text Colors */
+.tx-base-color {
+  color: $base-text-color;
+}
+
+.tx-dark-color {
+  color: $dark-text-color;
+}
+.tx-inverse-color {
+  color: $inverse-text-color;
+}
+mark,.tx-highlighted {
+  background-color: $texthighlighted-color
+}
+
+.text-muted, .tx-gray {
+	color: $gray;
+}
+
+.text-warning, .tx-yellow {
+	color: $yellow;
+}
+
+.text-error, .tx-red {
+	color: $red;
+}
+
+.text-info, .tx-blue {
+	color: $blue;
+}
+
+.text-success, .tx-green {
+	color: $green;
+}
+
+.tx-primary-color-darker {
+  color: $primary-color-darker;
+}
+
+.tx-primary-color-dark {
+  color: $primary-color-dark;
+}
+
+.tx-primary-color {
+  color: $primary-color;
+}
+
+.tx-primary-color-light {
+  color: $primary-color-light;
+}
+
+.tx-primary-color-lighter {
+  color: $primary-color-lighter;
+}
+
+.tx-accent-color-darker {
+  color: $accent-color-darker;
+}
+
+.tx-accent-color-dark {
+  color: $accent-color-dark;
+}
+
+.tx-accent-color {
+  color: $accent-color;
+}
+
+.tx-accent-color-light {
+  color: $accent-color-light;
+}
+
+.tx-accent-color-lighter {
+  color: $accent-color-lighter;
+}
+
+.tx-secondary-accent-color-darker {
+  color: $secondary-accent-color-darker;
+}
+
+.tx-secondary-accent-color {
+  color: $secondary-accent-color;
+}
+
+.tx-secondary-accent-color-lighter {
+  color: $secondary-accent-color-lighter;
+}
+
+/****** BACKGROUND PATTERNS ******/
+/* Body backgroung pattern exercice sheet*/
+.bg-pattern { /* adapted from https://codepen.io/scrimothy/pen/Hqibr */
+  background-color: $off-white;
+  background-image: linear-gradient(rgba(217,217, 217, 0.5) 1px, transparent 1px), linear-gradient($off-white 1px, transparent 1px), linear-gradient(90deg, rgba(217,217, 217, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(217,217, 217, 0.7) 1px, transparent 1px), linear-gradient(transparent 3px, #f1f1f1 3px, #f6f6f5 58px, transparent 58px), linear-gradient(90deg, rgba(217,217, 217, 0.7) 3px, transparent 3px, transparent 58px, rgba(217,217, 217, 0.7) 58px);
+  background-size: 15px 15px, 60px 60px, 15px 15px, 60px 60px, 60px 60px, 60px 60px;
+}
+
+.form-bg-pattern { /* from .bg-pattern {  */
+background-color: $off-white;
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23cccccc' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}

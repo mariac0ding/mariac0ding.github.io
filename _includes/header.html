@@ -1,0 +1,10 @@
+  <div class="my-header">
+  {% include _components/navigation.html %}
+  <!-- Jekyll Liquid comments: Just for the home page -->
+  {% if page.permalink == "/" or  page.permalink == "/pt/" %}
+    {% include _components/jumbotron-home-pg.html %}
+  {% elsif page.permalink != "/coming-soon/" %} <!-- Jekyll Liquid comments: excluding underconstruction-->
+    <!-- Jekyll Liquid comments: Not for the home page -->
+    {% include _components/jumbotron-other-pg.html %}
+  {% endif %}
+  </div>

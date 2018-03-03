@@ -1,0 +1,16 @@
+<!-- Page 404 -->
+	<section class="container text-xs-center">
+		{% assign notes-texts = site.data.across-texts[page.lang] | first %}
+	  <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
+	  <h2 class="summary-text handwrite-title">{{ page.lead-text }}</h2>
+		{% assign page404-texts = site.data.page404-texts[page.lang] | first %}
+		<span class="lead animation-element slide-left">
+			{{ page404-texts.text }}
+			{{ page404-texts.hometextpart1 }}
+			<a class="handwrite-title" href="{{ site.baseurl }}{{ site.navigation.home.path }}" alt="{{ site.navigation.home.name }}">{{ page404-texts.hometextpart2 }} </a>{{ page404-texts.hometextpart3 }}
+		</span>
+		<span class="lead animation-element slide-left">{{ page404-texts.emailtextpart1 }}
+			<a class="handwrite-title" href="mailto:{{ site.authoremail }}?Subject=Page%20400%20broken%20link" target="_top">{{ page404-texts.emailtextpart2 }}.</a>
+		</span>
+	</section>
+	 {% include _components/buttons-back-to-top-buttom.html %}
