@@ -1,11 +1,11 @@
   <!--  page -->
-  <section class="container-fluid">
+  <div class="container-fluid">
     {% assign notes-texts = site.data.across-texts[page.lang] | first %}
     <span class="pg-notes handwrite-text">{{ notes-texts.pg-text-note }}</span>
     <p class="summary-text handwrite-title">{{ page.lead-text }}</p>
     {% assign contact-texts = site.data.page-contact[page.lang] | first %}
     <P>{{ contact-texts.text }} {{ contact-texts.note }}</P>
-  </section>
+  </div>
   <div class="container-fluid contact-form d-flex flex-column align-items-center justify-content-center form-bg-pattern  animation-element slide-left">
     <!-- English Contact Form-->
     {% if page.lang == "en" %}

@@ -21,12 +21,9 @@
   <!-- Font Awesome CSS Version 5.0.4 -->
   <link href="/in-development/assets/fontawesome-free-5.0.4/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
 
-  <!--  Custom Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Exo:300|Exo+2|Fira+Sans:300,400|Open+Sans|Reenie+Beanie" rel="stylesheet">
-
   <!-- Custom CSS -->
   
-  <link href="/in-development/assets/css/home-pg-style.css" rel="stylesheet">
+  <link href="/in-development/assets/css/home-pg-style_v1.01.css" rel="stylesheet">
   
 
 </head>
@@ -36,7 +33,7 @@
   
     <!-- Language Navigation Bar -->
     
-    <div class="language-bar d-flex flex-row flex-wrap flex-sm-nowrap order-0">
+    <div class="language-bar d-flex flex-row align-items-center flex-wrap flex-sm-nowrap order-0">
       <span class="language-text handwrite-text">Escolher o idioma →</span>
         <ul class="lang-name list-inline bg-transparent">
           <li  class="lang-name-item list-inline-item" >
@@ -173,7 +170,7 @@
 
   <main>
     <!-- skills -->
-<session class="container-fluid my-skills">
+<div class="container-fluid my-skills">
    
    <span class="pg-notes handwrite-text">⤹ Escrever sobre o que faço e as minhas competências</span>
    <p class="summary-text handwrite-title">Construir interfaces visuais and functionais para a web, mobile e desktop.</p>
@@ -502,7 +499,7 @@
          </ul>
        </div>
    </div>
- </session>
+ </div>
 
 <div class="row d-flex justify-content-around">
    <div class="newsletter-container col-xs-12 col-md-6 animation-element slide-left">
@@ -542,7 +539,7 @@
 
         <div class="form-group">
           <label for="searchBoxText" class="sr-only">Procurar's' input</label>
-          <input id="searchBoxText" class="form-control btn-primary-outline" type="text" role="searchbox" name="q" value="" size="45%" maxlength="255" placeholder="Procurar" aria-labelledby="searchBoxText" />
+          <input id="searchBoxText" class="form-control btn-primary-outline" type="text" role="search" name="q" value="" size="45" maxlength="255" placeholder="Procurar" aria-labelledby="searchBoxText" />
         </div>
 
         <div class="form-group">
@@ -552,12 +549,12 @@
 
         <div class="form-group" role="radiogroup" aria-label="Search Option">
           <div class="form-check">
-            <input id="mySiteSearch" classe="form-check-input" type="radio" role="radio" name="sitesearch" value="mariacoding.com" checked="" aria-checked="" />
+            <input id="mySiteSearch" type="radio" name="sitesearch" value="mariacoding.com" checked="" aria-checked="true" />
             <label for="mySiteSearch" class="form-check-label">Procure no meu site</label>
 
           </div>
           <div class="form-check disabled">
-            <input id="googleSearch" classe="form-check-input" type="radio" role="radio" name="sitesearch" value="" />
+            <input id="googleSearch" type="radio" name="sitesearch" value="" aria-checked="false" />
             <label for="googleSearch" class="form-check-label">Procure na WEB</label>
           </div>
         </div>
@@ -645,7 +642,7 @@
   </script>
 
   <!-- Custom Theme JavaScript -->
-  <script src="/in-development/assets/js/custom.js"></script>
+  <script src="/in-development/assets/js/custom_v1.01.js"></script>
 
 </body>
 </html>

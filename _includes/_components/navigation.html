@@ -1,7 +1,7 @@
 
     <!-- Language Navigation Bar -->
     {% assign navbar-texts = site.data.nav-navbar[page.lang] | first %}
-    <div class="language-bar d-flex flex-row flex-wrap flex-sm-nowrap order-0">
+    <div class="language-bar d-flex flex-row align-items-center flex-wrap flex-sm-nowrap order-0">
       <span class="language-text handwrite-text">{{ navbar-texts.text-langbar }}</span>
         <ul class="lang-name list-inline {{ site.language-bar-class-bg }}">
           <li {%  if page.lang == "en" %} class="lang-name-item list-inline-item active" {% else %} class="lang-name-item list-inline-item" {% endif %}>

@@ -13,10 +13,10 @@
                  id="searchBoxText"
                  class="form-control btn-primary-outline"
                  type="text"
-                 role="searchbox"
+                 role="search"
                  name="q"
                  value=""
-                 size="45%"
+                 size="45"
                  maxlength="255"
                  placeholder="{{ fields.search-box }}"
                  aria-labelledby="searchBoxText">
@@ -36,23 +36,20 @@
           <div class="form-check">
             <input
                    id="mySiteSearch"
-                   classe="form-check-input"
                    type="radio"
-                   role="radio"
                    name="sitesearch"
                    value="mariacoding.com"
-                   checked
-                   aria-checked>
+                   checked=""
+                   aria-checked="true">
             <label for="mySiteSearch" class="form-check-label">{{ fields.search-where.option1 }}</label>
 
           </div>
           <div class="form-check disabled">
             <input id="googleSearch"
-                   classe="form-check-input"
                    type="radio"
-                   role="radio"
                    name="sitesearch"
-                   value="" >
+                   value=""
+                   aria-checked="false">
             <label for="googleSearch" class="form-check-label">{{ fields.search-where.option2 }}</label>
           </div>
         </div>

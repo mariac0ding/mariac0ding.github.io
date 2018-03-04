@@ -85,6 +85,13 @@
       h2 {font-size: $font-size-sm * 2.5;}
     }
   }
+  /****** MAIN ******/
+   /* About page */
+   .about-pg-skills {
+     .about-pg-skills-item {
+       width: 50%;
+     }
+   }
   /* Page under Construction */
  .underconstruction-text {
    font-size: 3.5em;
@@ -233,6 +240,7 @@
     margin-left: $left-right-margin-lg;
     margin-right: $left-right-margin-lg;
   }
+  /****** MAIN ******/
   /* Page Images */
   .pages-img-container {
     top: $pages-img-container-top-lg;
@@ -346,6 +354,13 @@
     margin-right: $left-right-margin-xl;
   }
 
+  /****** MAIN ******/
+   /* About page */
+   .about-pg-skills {
+     .about-pg-skills-item {
+       width: 25%;
+     }
+   }
   /* Page Images */
   .pages-img-container {
     top: $pages-img-container-top-xl;
@@ -413,6 +428,14 @@
       h2 {font-size: $font-size-xl * 2.5;}
     }
   }
+
+  /****** MAIN ******/
+   /* About page */
+   .about-pg-skills {
+     .about-pg-skills-item {
+       width: 25%;
+     }
+   }
     /* Page under Construction */
    .underconstruction-text {
      font-size: 6em;

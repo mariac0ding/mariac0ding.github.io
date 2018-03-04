@@ -21,12 +21,9 @@
   <!-- Font Awesome CSS Version 5.0.4 -->
   <link href="/in-development/assets/fontawesome-free-5.0.4/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
 
-  <!--  Custom Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Exo:300|Exo+2|Fira+Sans:300,400|Open+Sans|Reenie+Beanie" rel="stylesheet">
-
   <!-- Custom CSS -->
   
-  <link href="/in-development/assets/css/other-pg-style.css" rel="stylesheet">
+  <link href="/in-development/assets/css/other-pg-style_v1.01.css" rel="stylesheet">
   
 
 </head>
@@ -36,7 +33,7 @@
   
     <!-- Language Navigation Bar -->
     
-    <div class="language-bar d-flex flex-row flex-wrap flex-sm-nowrap order-0">
+    <div class="language-bar d-flex flex-row align-items-center flex-wrap flex-sm-nowrap order-0">
       <span class="language-text handwrite-text">Choose language →</span>
         <ul class="lang-name list-inline bg-transparent">
           <li  class="lang-name-item list-inline-item active" >
@@ -180,7 +177,7 @@
 
   <main>
     /* SITE */
-Last Updated: 2018/03/03
+Last Updated: 2018/03/04
 Standards: HTML5, CSS3
 Components: jekyll, jekyll-sass-converter, kramdown, jekyll-commonmark-ghpages, liquid, rouge, github-pages-health-check, jekyll-redirect-from, jekyll-sitemap, jekyll-feed, jekyll-gist, jekyll-paginate, jekyll-coffeescript, jekyll-seo-tag, jekyll-github-metadata, jekyll-avatar, jekyll-remote-theme, jemoji, jekyll-mentions, jekyll-relative-links, jekyll-optional-front-matter, jekyll-readme-index, jekyll-default-layout, jekyll-titles-from-headings, listen, activesupport, minima, jekyll-swiss, jekyll-theme-primer, jekyll-theme-architect, jekyll-theme-cayman, jekyll-theme-dinky, jekyll-theme-hacker, jekyll-theme-leap-day, jekyll-theme-merlot, jekyll-theme-midnight, jekyll-theme-minimal, jekyll-theme-modernist, jekyll-theme-slate, jekyll-theme-tactile, jekyll-theme-time-machine, ruby, github-pages, html-pipeline, sass, safe_yaml, nokogiri
 
@@ -247,7 +244,7 @@ Site: https://github.com/mariac0ding
   </script>
 
   <!-- Custom Theme JavaScript -->
-  <script src="/in-development/assets/js/custom.js"></script>
+  <script src="/in-development/assets/js/custom_v1.01.js"></script>
 
 </body>
 </html>
