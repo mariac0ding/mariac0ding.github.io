@@ -1000,7 +1000,7 @@ aside {
     right: 4px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.65em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1041,7 +1041,7 @@ aside {
     right: 4px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.65em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1065,7 +1065,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1088,7 +1088,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1111,7 +1111,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1134,7 +1134,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1157,7 +1157,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1180,7 +1180,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1349,7 +1349,7 @@ a.btn-primary-outline:focus {
   z-index: 1000; }
 
 .my-header::before {
-  content: "⤹ This will be the header";
+  content: "&#10553; This will be the header";
   font-family: "Reenie Beanie", cursive;
   color: #7b7b7b;
   position: absolute;
@@ -1404,7 +1404,11 @@ main {
 /* Newsletter form */
 .newsletter-container {
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.6rem;
+  padding-right: 1.75rem; }
   .newsletter-container span {
     color: #7b7b7b; }
   .newsletter-container p {
@@ -1418,7 +1422,7 @@ main {
     margin-bottom: 10px;
     min-width: 100%;
     min-height: 100%;
-    border: solid 1px rgba(14, 17, 17, 0.3);
+    border: solid 0.03rem #cccccc;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -1439,7 +1443,10 @@ main {
 /* Search form */
 .search-form-container {
   margin: 0;
-  padding-top: 10px;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 1.6rem;
+  padding-right: 1.75rem;
   width: 100%; }
   .search-form-container span {
     color: #7b7b7b; }
@@ -1454,7 +1461,7 @@ main {
     margin-bottom: 10px;
     min-width: 100%;
     min-height: 100%;
-    border: solid 1px rgba(14, 17, 17, 0.3);
+    border: solid 0.03rem #cccccc;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -2423,13 +2430,17 @@ main {
   .newsletter-container {
     margin-bottom: 0;
     margin-left: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem; }
 
   /* Search form */
   .search-form-container {
     margin-bottom: 0;
     margin-left: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    padding-top: 2rem;
+    padding-left: 0.8rem; }
     .search-form-container #searchBoxText {
       width: 100% !important; }
 
@@ -2530,4 +2541,4 @@ main {
 /* End of Media Queries
 ---------------------------------------------------------------- */
 
-/*# sourceMappingURL=home-pg-style_v1.01.css.map */
+/*# sourceMappingURL=home-pg-style_v1.02.css.map */

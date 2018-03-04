@@ -999,7 +999,7 @@ aside {
     right: 4px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.65em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1040,7 +1040,7 @@ aside {
     right: 4px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.65em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1064,7 +1064,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1087,7 +1087,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1110,7 +1110,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1133,7 +1133,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1156,7 +1156,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1179,7 +1179,7 @@ aside {
     right: 5px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.75em;
+    font-size: 1.6em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1348,7 +1348,7 @@ a.btn-primary-outline:focus {
   z-index: 1000; }
 
 .my-header::before {
-  content: "⤹ This will be the header";
+  content: "&#10553; This will be the header";
   font-family: "Reenie Beanie", cursive;
   color: #7b7b7b;
   position: absolute;
@@ -2685,4 +2685,4 @@ main {
 /* End of Media Queries
 ---------------------------------------------------------------- */
 
-/*# sourceMappingURL=other-pg-style_v1.01.css.map */
+/*# sourceMappingURL=other-pg-style_v1.02.css.map */

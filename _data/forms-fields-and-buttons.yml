@@ -2,7 +2,7 @@
 en:
 -
   lang: en
-  newsletter-text: ⤹ to Subscribe my blog posts updates
+  newsletter-text: "&#10553; to Subscribe my blog posts updates"
   form-newsletter: Newsletter Subscription
   form-contact: Contact me
   label-first-name: First Name
@@ -21,7 +21,7 @@ en:
   button-send: Send
   button-more: More Info
   text-box: Enter here your Google search
-  search-text: ⤹ enter here the Google search
+  search-text: "&#10553; enter here the Google search"
   search-box: Search
   search-tooltip: <i class="fa fa-search" aria-hidden="true"><span class="sr-only">Search Button</span></i>
   search-where:
@@ -31,7 +31,7 @@ en:
 pt:
 -
   lang: pt
-  newsletter-text: ⤹ Subscreva atualizações do meu blog
+  newsletter-text: "&#10553; Subscreva atualizações do meu blog"
   form-newsletter: Subscrição da Newsletter
   form-contact: Contate-me
   label-first-name: Nome próprio
@@ -50,7 +50,7 @@ pt:
   button-send: Enviar
   button-more:  + Info
   text-box: Escreva aqui a sua pesquisa no Google
-  search-text: ⤹ escreva aqui a procura no Google
+  search-text: "&#10553; escreva aqui a procura no Google"
   search-box: Procurar
   search-tooltip: <i class="fa fa-search" aria-hidden="true"><span class="sr-only">Botão Procurar</span></i>
   search-where:

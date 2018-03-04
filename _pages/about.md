@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: ⤹ My avatar
+subtitle: "&#10553; My avatar"
 lead-text: Crafting visually experiences for web and interfaces
 permalink: /about/
 ---

@@ -4,23 +4,23 @@ en:
 -
   skill:
     - name: HTML5
-      topic: Code languages
+      topic: Programming languages
       knowledge: 95
 
     - name: CSS3
-      topic: Code languages
+      topic: Programming languages
       knowledge: 95
 
     - name: JavaScript
-      topic: Code languages
+      topic: Programming languages
       knowledge: 60
 
     - name: Liquid
-      topic: Code languages
+      topic: Programming languages
       knowledge: 90
 
     - name: SQL
-      topic: Code languages
+      topic: Programming languages
       knowledge: 50
 
     - name: Twitter Bootstrap
@@ -94,23 +94,23 @@ pt:
 -
   skill:
     - name: HTML5
-      topic: Linguagens
+      topic: Linguagens de programação
       knowledge: 95
 
     - name: CSS3
-      topic: Linguagens
+      topic: Linguagens de programação
       knowledge: 95
 
     - name: JavaScript
-      topic: Linguagens
+      topic: Linguagens de programação
       knowledge: 60
 
     - name: Liquid
-      topic: Linguagens
+      topic: Linguagens de programação
       knowledge: 90
 
     - name: SQL
-      topic: Linguagens
+      topic: Linguagens de programação
       knowledge: 50
 
     - name: Twitter Bootstrap

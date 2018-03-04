@@ -3,13 +3,13 @@
 # NavBar in English
 en:
 -
-  text-langbar: Choose language →
-  text-socialmedia: ⤹ Can't forget to mention social media!!!
-  text-brand: ⤹ my brand
+  text-langbar: "Choose language &#x219d;"
+  text-socialmedia: "&#10553; Can't forget to mention social media!!!"
+  text-brand: "&#10553; my brand"
   heading-navbar: My personal website
-  text-navbar: ⤹ Pages at the navbar
+  text-navbar: "&#10553; Pages at the navbar"
   landing:
-    name:  <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Home icon</span></i>     # Liquid variable {{ nav-tabs.landing.name }}
+    name: <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Home icon</span></i> # Liquid variable {{ nav-tabs.landing.name }}
     path: /
     img:
   page2:
@@ -33,13 +33,13 @@ en:
 # NavBar in Portuguese
 pt:
 -
-  text-langbar: Escolher o idioma →
-  text-socialmedia: ⤹ Não esquecer de mencionar os social media!!!
-  text-brand: ⤹ a minha marca
+  text-langbar: "Escolher o idioma &#x219d;"
+  text-socialmedia: "&#10553; Não esquecer de mencionar os social media!!!"
+  text-brand: "&#10553; a minha marca"
   heading-navbar: Meu website pessoal
-  text-navbar: ⤹ Páginas da navbar
+  text-navbar: "&#10553; Páginas da navbar"
   landing:
-    name:  <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Icone duma casa</span></i>   # texto é Início
+    name: <i class="fas fa-home" aria-hidden="true"><span class="sr-only">Icone duma casa</span></i>  # texto é Início
     path: /pt/
     img:
   page2:

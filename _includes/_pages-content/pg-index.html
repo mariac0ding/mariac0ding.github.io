@@ -6,11 +6,11 @@
    <h3 class="text-xs-center text-md-left">{{ about-texts.skills-heading }}</h3>
    <div  class="row">
      <!-- skills: Code Languages -->
-     <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Code languages {% else %} Linguagens {% endif %}
+     <div class="skills-topic col-xs-12 col-lg-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Programming languages {% else %} Linguagens de programação {% endif %}
        <ul class="skills list-group-item list-inline">
         {% assign skills = site.data.skills[page.lang] | first %}
          {% for skill in skills.skill %}
-           {% if skill.topic == "Code languages" or skill.topic == "Linguagens" %}
+           {% if skill.topic == "Programming languages" or skill.topic == "Linguagens de programação" %}
            <li class="skills-item handwrite-title">{{ skill.name }}
              <div class="progress">
                <div class="progress-bar progress-bar-striped bg-primary-light" role="progressbar" style="width: {{ skill.knowledge }}%" aria-valuenow="{{ skill.knowledge }}" aria-valuemin="0" aria-valuemax="{{ skill.knowledge }}"></div>
@@ -21,7 +21,7 @@
         </ul>
       </div>
       <!-- skills: Frameworks and processors -->
-      <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Frameworks and processors {% else %} Frameworks e processadores {% endif %}
+      <div class="skills-topic col-xs-12 col-lg-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Frameworks and processors {% else %} Frameworks e processadores {% endif %}
         <ul class="skills list-group-item list-inline">
          {% assign skills = site.data.skills[page.lang] | first %}
           {% for skill in skills.skill %}
@@ -36,7 +36,7 @@
          </ul>
        </div>
        <!-- skills: Building web functionality -->
-       <div class="skills-topic col-xs-12 col-md-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Building web functionality {% else %} Construir funcionalidades web {% endif %}
+       <div class="skills-topic col-xs-12 col-lg-6 handwrite-text animation-element slide-left">{% if page.lang == "en" %} Building web functionality {% else %} Construir funcionalidades web {% endif %}
          <ul class="skills list-group-item list-inline">
           {% assign skills = site.data.skills[page.lang] | first %}
            {% for skill in skills.skill %}
@@ -51,7 +51,7 @@
           </ul>
         </div>
         <!-- skills: Use to develop -->
-        <div class="skills-topic col-xs-12 col-md-6 handwrite-text  animation-element slide-left">{% if page.lang == "en" %} Use to develop {% else %} Uso para programar {% endif %}
+        <div class="skills-topic col-xs-12 col-lg-6 handwrite-text  animation-element slide-left">{% if page.lang == "en" %} Use to develop {% else %} Uso para programar {% endif %}
           <ul class="skills list-group-item list-inline">
            {% assign skills = site.data.skills[page.lang] | first %}
             {% for skill in skills.skill %}
@@ -68,8 +68,8 @@
    </div>
  </div>
 
- <div class="row d-flex justify-content-around">
-   <div class="newsletter-container col-xs-12 col-md-6 animation-element slide-left">
+ <div class="row d-flex flex-column flex-lg-row justify-content-between">
+   <div class="newsletter-container col-xs-12 col-lg-6 animation-element slide-left">
      <!-- Newsletter form -->
      <div class="container-fluid newsletter-form {{ site.newsletter-form-class-bg}}">
        {% assign fields = site.data.forms-fields-and-buttons[page.lang] | first %}
@@ -79,7 +79,7 @@
      </div>
    </div>
 
-   <div class="search-form-container col-xs-12 col-md-6 animation-element slide-left">
+   <div class="search-form-container col-xs-12 col-lg-6 animation-element slide-left">
      <!-- Search form -->
      <div class="container-fluid search-form {{ site.search-form-class-bg}}">
        {% assign fields = site.data.forms-fields-and-buttons[page.lang] | first %}

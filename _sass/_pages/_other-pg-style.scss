@@ -16,7 +16,7 @@
  }
 
  .my-header::before {
-   content: "⤹ This will be the header";
+   content: "&#10553; This will be the header";
    font-family: $font-handletter;
    color: $gray-dark;
    position: absolute;

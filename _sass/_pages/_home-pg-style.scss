@@ -17,7 +17,7 @@
  }
 
  .my-header::before {
-   content: "⤹ This will be the header";
+   content: "&#10553; This will be the header";
    font-family: $font-handletter;
    color: $gray-dark;
    position: absolute;
@@ -86,6 +86,10 @@
 .newsletter-container {
   margin: 0 auto;
   width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem; //padding-bottom: 0.5rem after lg
+  padding-left: 1.6rem;
+  padding-right: 1.75rem; //padding-right: 0.75rem after lg
 
   span {
     color: $gray-dark;
@@ -102,7 +106,7 @@
       margin-bottom: 10px;
       min-width: 100%;
       min-height: 100%;
-      border: solid 1px $black-rgba;
+      border: solid 0.03rem $gray-light;
       @include border-radius(10px);
       box-shadow: 0 10px 6px -6px $black-rgba;
       color: $base-text-color;
@@ -130,7 +134,10 @@
 /* Search form */
 .search-form-container {
   margin: 0;
-  padding-top: 10px;//zero after md
+  padding-top: 0; //padding-top: 2rem after lg;
+  padding-bottom: 0.5rem;
+  padding-left: 1.6rem; //padding-left: 0.8rem after lg;
+  padding-right: 1.75rem;
   width: 100%;
 
   span {
@@ -150,7 +157,7 @@
     margin-bottom: 10px;
     min-width: 100%;
     min-height: 100%;
-    border: solid 1px $black-rgba;
+    border: solid 0.03rem $gray-light;
     @include border-radius(10px);
     box-shadow: 0 10px 6px -6px $black-rgba;
     color: $base-text-color;

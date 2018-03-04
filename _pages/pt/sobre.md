@@ -1,6 +1,6 @@
 ---
 title: Sobre Mim
-subtitle: ⤹ Meu avatar
+subtitle: "&#10553; Meu avatar"
 lead-text: Criando experiências visuais para web e interfaces
 permalink: /pt/sobre/
 ---
