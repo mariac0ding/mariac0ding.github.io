@@ -23,3 +23,8 @@
   {% else %}
   <link href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/css/other-pg-style_v1.02.css" rel="stylesheet">
   {% endif %}
+
+  <!--  Google Analytics Script -->
+  {% if jekyll.environment == 'production' %}
+    {% include _components/google-analytics.html %}
+  {% endif %}
