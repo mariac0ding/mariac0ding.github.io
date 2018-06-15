@@ -15,6 +15,10 @@
 
   <link rel="shortcut icon" href="/in-development/favicon.ico" />
 
+  <!-- Languages -->
+  <link rel="alternate" href="/in-development/assets" hhreflang="x-default" />
+  <link rel="alternate" href="/in-development/assets/pt" hreflang="pt" />
+
   <!-- Bootstrap Core CSS Version 4.0.0 -->
   <link href="/in-development/assets/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
