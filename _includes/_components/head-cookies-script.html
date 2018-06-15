@@ -1,0 +1,13 @@
+<!-- 'It is your responsibility to notify your visitors about cookies used on your blog. See http://www.blogger.com/go/cookiechoices for more details.' -->
+ <!-- Google Cookie Choices -->
+	<script src="{{ site.baseurl }}/{{ site.sass.sass_dir }}/js/cookiechoices.js" defer></script>
+
+	<script>
+	  document.addEventListener('DOMContentLoaded', function(event) {
+	    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+	        (window.cookieOptions && cookieOptions.msg) || '{% assign cookies-texts = site.data.across-texts[page.lang] | first %} {{ cookies-texts.cookies.message }}',
+	        (window.cookieOptions && cookieOptions.close) || '{% assign cookies-texts = site.data.across-texts[page.lang] | first %} {{ cookies-texts.cookies.botton-yes }}',
+	        (window.cookieOptions && cookieOptions.learn) || '{% assign cookies-texts = site.data.across-texts[page.lang] | first %} {{ cookies-texts.cookies.botton-no }}',
+	        (window.cookieOptions && cookieOptions.link) || '{% assign cookies-texts = site.data.across-texts[page.lang] | first %} {{ cookies-texts.cookies.lear-more }}');
+	  });
+	</script>

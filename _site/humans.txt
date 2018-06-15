@@ -29,6 +29,22 @@
   <!--  Google Analytics Script -->
   
 
+  <!--  Cookies banner Script -->
+  <!-- 'It is your responsibility to notify your visitors about cookies used on your blog. See http://www.blogger.com/go/cookiechoices for more details.' -->
+ <!-- Google Cookie Choices -->
+	<script src="/in-development/assets/js/cookiechoices.js" defer></script>
+
+	<script>
+	  document.addEventListener('DOMContentLoaded', function(event) {
+	    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+	        (window.cookieOptions && cookieOptions.msg) || ' This site uses cookies to enhance your user experience, to personalise ads and to analyse traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.',
+	        (window.cookieOptions && cookieOptions.close) || ' Got it',
+	        (window.cookieOptions && cookieOptions.learn) || ' Learn more',
+	        (window.cookieOptions && cookieOptions.link) || ' https://www.google.com/policies/technologies/cookies/');
+	  });
+	</script>
+
+
 </head>
 <body class="bg-pattern">
   <header id="header">

@@ -8,7 +8,7 @@ en:
   banner2-text: A new awesome Website is coming soon!
   social-network: Follow me
   cookies:
-    text: This site uses cookies to enhance your user experience, to personalise ads and to analyse traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.
+    message: This site uses cookies to enhance your user experience, to personalise ads and to analyse traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.
     botton-yes: Got it
     botton-no: Learn more
     lear-more: https://www.google.com/policies/technologies/cookies/
@@ -25,7 +25,7 @@ pt:
   banner2-text: Um novo e fantástico Website está chegando!
   social-network: Siga-me
   cookies:
-    text: Este site usa cookies para melhorar a sua experiencia como utilizador, para personalizar anúncios publicitários e para analisar o tráfico. Informações sobre o uso deste site será partilhado com a Google. Ao entrar neste site, concorda com a utilização de cookies.
+    message: Este site usa cookies para melhorar a sua experiencia como utilizador, para personalizar anúncios publicitários e para analisar o tráfico. Informações sobre o uso deste site será partilhado com a Google. Ao entrar neste site, concorda com a utilização de cookies.
     botton-yes: OK, entendi
     botton-no: + Informação
     lear-more: https://www.google.com/policies/technologies/cookies/
