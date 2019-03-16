@@ -999,7 +999,7 @@ aside {
     right: 4px;
     width: 100%;
     font-family: "Reenie Beanie", cursive;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     color: #4e565d;
@@ -1502,7 +1502,7 @@ main {
       height: 178px; }
     .polaroid-container .polaroid-img::after {
       top: 153px;
-      font-size: 1.7em; }
+      font-size: 1.65em; }
 
   /* Poloroid photo at other pages */
   .pages-img-container {
